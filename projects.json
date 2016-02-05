@@ -1,0 +1,109 @@
+{
+    "projects": [
+        {
+            "project": "Ammatillisen aikuiskoulutuksen palautejärjestelmä Aipal",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/aipal",
+	    "service_url": "-",
+	    "homepage_url": "https://confluence.csc.fi/pages/viewpage.action?pageId=53517029"
+        },
+        {
+            "project": "Tutkintotoimikuntarekisteri Aitu",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/aitu",
+	    "service_url": "-",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "Todennetun osaamisen rekisteri TOR",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/tor",
+	    "service_url": "-",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "Hakurekisteri",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/hakurekisteri",
+	    "service_url": "-",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "osaan.fi -palvelu",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/osaan.fi",
+	    "service_url": "https://www.osaan.fi",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "näyttötutkintohaku.fi -palvelu",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/aituhaku",
+	    "service_url": "https://www.nayttotutkintohaku.fi",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "Koodistopalvelu",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/koodisto",
+	    "service_url": "-",
+	    "homepage_url": "-"	    
+        },
+        {
+            "project": "Tutkintotietojen hallinnan ePerusteet -järjestelmä",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/eperusteet",
+	    "service_url": "https://eperusteet.opintopolku.fi/",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "Valtionavustusten hakujärjestelmä",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/valtionavustus",
+	    "service_url": "-",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "kansalaisaloite.fi -palvelu",
+            "owner": "Oikeusministeriö",
+            "code_url": "https://github.com/solita/kansalaisaloite",
+	    "service_url": "https://www.kansalaisaloite.fi/",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "Sähköisten rakennuslupien lupapiste.fi -palvelu",
+            "owner": "Ympäristöministeriö",
+            "code_url": "https://github.com/lupapiste/lupapiste",
+	    "service_url": "https://www.lupapiste.fi/",
+	    "homepage_url": "-"
+	},
+        {
+            "project": "Tieverkoston aineistopalvelu Digiroad",
+            "owner": "Liikennevirasto",
+            "code_url": "https://github.com/finnishtransportagency/digiroad2",
+	    "service_url": "-",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "Liikennetietopalvelu Digitraffic",
+            "owner": "Liikennevirasto",
+            "code_url": "https://github.com/finnishtransportagency/digitraffic",
+	    "service_url": "-",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "Joukkoliikenteen seurantajärjestelmä Juku",
+            "owner": "Liikennevirasto",
+            "code_url": "https://github.com/solita/livijuku",
+	    "service_url": "-",
+	    "homepage_url": "-"
+        },
+        {
+            "project": "Korkeakoulujen palautejärjestelmä Arvo",
+            "owner": "CSC",
+            "code_url": "https://github.com/CSC-IT-Center-for-Science/arvo",
+	    "service_url": "-",
+	    "homepage_url": "-"
+        }
+    ]
+}
