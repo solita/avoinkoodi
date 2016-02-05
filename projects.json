@@ -107,7 +107,7 @@
         },
         {
             "project": "Apika",
-            "owner": "Opetushallitus",
+            "owner": "VRK PoC",
             "code_url": "https://github.com/Digipalvelutehdas/apika-dashboard",
             "service_url": "https://apika.digipalvelutehdas.fi/",
             "homepage_url": "http://apisuomi.fi/category/apika/"
