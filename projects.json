@@ -39,7 +39,7 @@
             "project": "näyttötutkintohaku.fi -palvelu",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/aituhaku",
-	    "service_url": "https://www.nayttotutkintohaku.fi",
+	    "service_url": "http://www.nayttotutkintohaku.fi",
 	    "homepage_url": "-"
         },
         {
