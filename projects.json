@@ -111,6 +111,13 @@
             "code_url": "https://github.com/yhteentoimivuuspalvelut/ytp",
             "service_url": "https://www.avoindata.fi/fi",
             "homepage_url": "-"
+        },
+        {
+            "project": "Apika",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Digipalvelutehdas/apika-dashboard",
+            "service_url": "https://apika.digipalvelutehdas.fi/",
+            "homepage_url": "http://apisuomi.fi/category/apika/"
         }
     ]
 }
