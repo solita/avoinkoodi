@@ -106,6 +106,13 @@
             "homepage_url": "-"
         },
         {
+            "project": "Avoimen tiedon ja yhteentoimivuuden palvelu Avoindata.fi",
+            "owner": "Valtori",
+            "code_url": "https://github.com/yhteentoimivuuspalvelut/ytp",
+            "service_url": "https://www.avoindata.fi/fi",
+            "homepage_url": "-"
+        },
+        {
             "project": "Apika",
             "owner": "VRK PoC",
             "code_url": "https://github.com/Digipalvelutehdas/apika-dashboard",
