@@ -29,6 +29,7 @@
             "project": "osaan.fi -palvelu",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/osaan.fi"
+	    "service_url": "https://www.osaan.fi"
         },
         {
             "project": "näyttötutkintohaku.fi -palvelu",
