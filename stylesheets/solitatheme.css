@@ -239,12 +239,12 @@ thead {
 
 .btn {
   display: block;
-
   border: 1px solid #e93f85/*pink*/;
   padding: 0.5rem 1rem;
   margin: 0.5rem 0;
   border-radius: 0.25rem;
 
+  max-height: 39px;
   transition: all 0.6s;
 }
 
