@@ -17,8 +17,11 @@ $(document).ready(function() {
         });
 
         $.each(data.projects, function(index, row) {
-            $("#projects").append("<tr><td>"+ row.owner + "</td><td>" + row.project + "</td><td><a href='" + row.code_url + "'>" + row.code_url + "</a></td>" +
-                    "<td><a href='" + row.service_url + "'>" + row.service_url + "</a></td>" +
+            $("#projects").append("<tr>" +
+                    "<td>"+ $("<td>").text(row.owner).html() + "</td>" +
+                    "<td>" + $("<td>").text(row.project).html() + "</td>" +
+                    "<td><a href='" + $("<td>").text(row.code_url).html() + "'>" + $("<td>").text(row.code_url).html() + "</a></td>" +
+                    "<td><a href='" + $("<td>").text(row.service_url).html() + "'>" + $("<td>").text(row.service_url).html() + "</a></td>" +
                     "</tr>");
         });
     });
