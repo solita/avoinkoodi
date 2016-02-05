@@ -151,6 +151,14 @@
             "service_url": "-",
             "homepage_url": "-",
 	    "description": ""
+	},
+	{
+            "project": "Digitransit, Uuden ajan matkaopas",
+            "owner": "HSL & Liikennevirasto",
+            "code_url": "https://github.com/HSLdevcom/digitransit",	    
+            "service_url": "-",
+            "homepage_url": "-",
+	    "description": ""
 	}	
     ]
 }
