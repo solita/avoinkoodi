@@ -5,133 +5,152 @@
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/aipal",
             "service_url": "-",
-            "homepage_url": "https://confluence.csc.fi/pages/viewpage.action?pageId=53517029"
+            "homepage_url": "https://confluence.csc.fi/pages/viewpage.action?pageId=53517029",
+	    "description": ""
         },
         {
             "project": "Tutkintotoimikuntarekisteri Aitu",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/aitu",
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Todennetun osaamisen rekisteri TOR",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/tor",
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Hakurekisteri",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/hakurekisteri",
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "osaan.fi -palvelu",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/osaan.fi",
             "service_url": "https://www.osaan.fi",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "näyttötutkintohaku.fi -palvelu",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/aituhaku",
             "service_url": "http://www.nayttotutkintohaku.fi",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Koodistopalvelu",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/koodisto",
             "service_url": "-",
-            "homepage_url": "-"     
+            "homepage_url": "-",
+	    "description": ""	    
         },
         {
             "project": "Tutkintotietojen hallinnan ePerusteet -järjestelmä",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/eperusteet",
             "service_url": "https://eperusteet.opintopolku.fi/",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Valtionavustusten hakujärjestelmä",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/valtionavustus",
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "kansalaisaloite.fi -palvelu",
             "owner": "Oikeusministeriö",
             "code_url": "https://github.com/solita/kansalaisaloite",
             "service_url": "https://www.kansalaisaloite.fi/",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Sähköisten rakennuslupien lupapiste.fi -palvelu",
             "owner": "Ympäristöministeriö",
             "code_url": "https://github.com/lupapiste/lupapiste",
             "service_url": "https://www.lupapiste.fi/",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Tieverkoston aineistopalvelu Digiroad",
             "owner": "Liikennevirasto",
             "code_url": "https://github.com/finnishtransportagency/digiroad2",
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Liikennetietopalvelu Digitraffic",
             "owner": "Liikennevirasto",
             "code_url": "https://github.com/finnishtransportagency/digitraffic",
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Joukkoliikenteen seurantajärjestelmä Juku",
             "owner": "Liikennevirasto",
             "code_url": "https://github.com/solita/livijuku",
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Korkeakoulujen palautejärjestelmä Arvo",
             "owner": "CSC",
             "code_url": "https://github.com/CSC-IT-Center-for-Science/arvo",
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Avoimen tiedon ja yhteentoimivuuden palvelu Avoindata.fi",
             "owner": "Valtori",
             "code_url": "https://github.com/yhteentoimivuuspalvelut/ytp",
             "service_url": "https://www.avoindata.fi/fi",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
         },
         {
             "project": "Apika",
             "owner": "VRK PoC",
             "code_url": "https://github.com/Digipalvelutehdas/apika-dashboard",
             "service_url": "https://apika.digipalvelutehdas.fi/",
-            "homepage_url": "http://apisuomi.fi/category/apika/"
+            "homepage_url": "http://apisuomi.fi/category/apika/",
+	    "description": "Avoimien rajapintojen hakemisto ja hallintajärjestelmä"
         },
 	{
             "project": "Palveluväylän turvapalvelin",
             "owner": "Väestörekisterikeskus",
             "code_url": "https://github.com/vrk-kpa/xroad-public",
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
 	},
 	{
             "project": "Liityntäkatalogi",
             "owner": "Väestörekisterikeskus",
             "code_url": "https://github.com/vrk-kpa/api-catalog",	    
             "service_url": "-",
-            "homepage_url": "-"
+            "homepage_url": "-",
+	    "description": ""
 	}	
     ]
 }
