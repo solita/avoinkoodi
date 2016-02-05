@@ -8,3 +8,13 @@ pull requestit pitää kohdistaa siihen, eikä master-haaraan.
 
 Projektidata ladataan selaimeen Javascriptilla JSON-muodossa, eli projektilistan voi ladata myös raakadatana ja upottaa siten muuallekin.
 
+# Puuttuuko listalta jotain?
+
+Projekteja lisätään listalle ihan mielellään, mutta projekteista pitäisi saada minimissään tietää kolme asiaa:
+
+1. Projektin omistaja (esimerkiksi Ympäristöministeriö)
+2. Lyhyt kuvaus siitä mikä projekti on. Pelkkä nimi ei aina tarkoita ulkopuoliselle mitään.
+3. Lähdekoodirepositoryn osoite.
+
+Jos palvelu on julkinen palvelu, sen osoite kannattaa myös ilmoittaa. Samoin mahdollinen projektin kotisivu jos sellainen on.
+
