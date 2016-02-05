@@ -104,6 +104,13 @@
             "code_url": "https://github.com/CSC-IT-Center-for-Science/arvo",
             "service_url": "-",
             "homepage_url": "-"
+        },
+        {
+            "project": "Avoimen tiedon ja yhteentoimivuuden palvelu Avoindata.fi",
+            "owner": "Valtori",
+            "code_url": "https://github.com/yhteentoimivuuspalvelut/ytp",
+            "service_url": "https://www.avoindata.fi/fi",
+            "homepage_url": "-"
         }
     ]
 }
