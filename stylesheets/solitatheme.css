@@ -259,7 +259,7 @@ thead {
 .btn-icon {
   display: inline-block;
   width: 20px;
-  height: auto;
+  height: 20px;
 
   fill: #e93f85/*pink*/;
   vertical-align: middle;
@@ -273,6 +273,7 @@ thead {
   margin-right: -6px;
 
   width: 24px;
+  height: 24px;
 }
 
 .btn:hover {
