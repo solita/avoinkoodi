@@ -159,6 +159,14 @@
             "service_url": "-",
             "homepage_url": "-",
 	    "description": ""
-	}	
+	},
+	{
+            "project": "MPASS tunnistusratkaisu (beta)",
+            "owner": "OKM & CSC",
+            "code_url": "https://github.com/Digipalvelutehdas/MPASS-proxy",	    
+            "service_url": "https://mpass-connector.csc.fi/",
+            "homepage_url": "http://mpass.fi",
+	    "description": "Heikkojen tunnistusmenetelmien SSO-ratkaisu"
+	}
     ]
 }
