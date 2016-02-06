@@ -13,8 +13,8 @@
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/aitu",
             "service_url": "-",
-            "homepage_url": "-",
-	    "description": ""
+            "homepage_url": "https://confluence.csc.fi/display/OPHPALV/Tutkintotoimikuntarekisteri",
+	    "description": "Tutkintotoimikuntajärjestelmän ydinjärjestelmä"
         },
         {
             "project": "Todennetun osaamisen rekisteri TOR",
@@ -37,24 +37,32 @@
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/osaan.fi",
             "service_url": "https://www.osaan.fi",
-            "homepage_url": "-",
-	    "description": ""
+            "homepage_url": "https://confluence.csc.fi/display/OPHPALV/osaan.fi",
+	    "description": "Palvelu oman ammatillisen osaamisen arvioimiseksi."
         },
         {
             "project": "näyttötutkintohaku.fi -palvelu",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/aituhaku",
             "service_url": "http://www.nayttotutkintohaku.fi",
-            "homepage_url": "-",
-	    "description": ""
+            "homepage_url": "https://confluence.csc.fi/pages/viewpage.action?pageId=58826670",
+	    "description": "Palvelu näyttötutkintojen järjestäjien etsimiseen."
         },
         {
             "project": "Koodistopalvelu",
             "owner": "Opetushallitus",
             "code_url": "https://github.com/Opetushallitus/koodisto",
             "service_url": "-",
-            "homepage_url": "-",
-	    "description": ""	    
+            "homepage_url": "https://confluence.csc.fi/display/OPHPALV/Koodistopalvelu",
+	    "description": ""
+        },
+        {
+            "project": "Organisaatiopalvelu",
+            "owner": "Opetushallitus",
+            "code_url": "https://github.com/Opetushallitus/organisaatio",
+            "service_url": "-",
+            "homepage_url": "https://confluence.csc.fi/display/OPHPALV/Organisaatiotietojen+hallintapalvelu",
+	    "description": "Organisaatioiden hallintapalvelu"
         },
         {
             "project": "Tutkintotietojen hallinnan ePerusteet -järjestelmä",
@@ -62,7 +70,7 @@
             "code_url": "https://github.com/Opetushallitus/eperusteet",
             "service_url": "https://eperusteet.opintopolku.fi/",
             "homepage_url": "-",
-	    "description": ""
+	    "description": "Tutkintojen viralliset muodostumissäännöt, suorituskriteerit ja sisällöt hallitaan ePerusteet-järjestelmällä."
         },
         {
             "project": "Valtionavustusten hakujärjestelmä",
