@@ -175,6 +175,14 @@
             "service_url": "https://mpass-connector.csc.fi/",
             "homepage_url": "http://mpass.fi",
 	    "description": "Heikkojen tunnistusmenetelmien SSO-ratkaisu"
-	}
+	},
+	{
+            "project": "Suomi.fi-tunnistaminen",
+            "owner": "Väestörekisterikeskus",
+            "code_url": "https://github.com/vrk-kpa?utf8=%E2%9C%93&query=e-identification",
+            "service_url": "-",
+            "homepage_url": "http://esuomi.fi/palveluntarjoajille/tunnistaminen/",
+	    "description": "Suomi.fi-tunnistaminen mahdollistaa Suomen ja EU-kansalaisen sähköisen tunnistamisen tietoturvallisesti erilaisia tunnistusvälineitä, kuten pankkitunnistusta ja mobiilivarmennetta hyödyntäen."
+    }
     ]
 }
