@@ -129,13 +129,7 @@ a {
   margin: 0 auto;
 }
 
-@media only screen and (min-width : 768px) {
-  .wrapper {
-    padding: 0;
-  }
-}
-
-.article p {
+.article p, .article ul {
   line-height: 1.5;
 }
 
@@ -167,12 +161,14 @@ a {
 
   .footer-content {
     float: right;
+    margin-top: 0;
   } 
 } 
 
 /* TABLE */
 
 table {
+  width: 100%;
   margin-bottom: 2rem;
 }
 
@@ -249,7 +245,6 @@ thead {
   padding: 0.5rem 1rem;
   margin: 0.5rem 0;
   border-radius: 0.25rem;
-  font-weight: bold;
 
   max-height: 39px;
   transition: all 0.6s;
