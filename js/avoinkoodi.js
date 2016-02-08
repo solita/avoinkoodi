@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#projects").html('<tr><td colspan="3">Ladataan sisältöä...</td></tr>');
+    $("#projects").html('<tr><td colspan="4">Ladataan sisältöä...</td></tr>');
     json_url = window.location.pathname;
 
     if (window.location.pathname.endsWith('/')) {
