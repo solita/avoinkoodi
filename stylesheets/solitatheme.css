@@ -94,6 +94,11 @@ a {
   .header {
     padding: 2rem 0 4rem;
   }
+
+  .logo-content {
+    float: right;
+    margin-top: 0;
+  }
 }
 
 .header-content {
