@@ -1,6 +1,7 @@
+"use strict";
 $(document).ready(function() {
     $("#projects").html('<tr><td colspan="3">Ladataan sisältöä...</td></tr>');
-    json_url = window.location.pathname;
+    var json_url = window.location.pathname;
 
     if (window.location.pathname.endsWith('/')) {
         json_url = json_url.substring(0, json_url.length - 1);
@@ -10,8 +11,8 @@ $(document).ready(function() {
         $("#projects").html("");
 
         data.projects.sort(function(a, b) {
-            ownerA = a.owner.toLowerCase();
-            ownerB = b.owner.toLowerCase();
+            var ownerA = a.owner.toLowerCase();
+            var ownerB = b.owner.toLowerCase();
 
             return ownerA.localeCompare(ownerB);
         });
