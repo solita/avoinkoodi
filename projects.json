@@ -183,6 +183,14 @@
             "service_url": "-",
             "homepage_url": "http://esuomi.fi/palveluntarjoajille/tunnistaminen/",
 	    "description": "Suomi.fi-tunnistaminen mahdollistaa Suomen ja EU-kansalaisen sähköisen tunnistamisen tietoturvallisesti erilaisia tunnistusvälineitä, kuten pankkitunnistusta ja mobiilivarmennetta hyödyntäen."
-    }
+	},
+	{
+	    "project": "OpenStreetMap -palveluun pohjautuva palvelukartta",
+	    "owner": "Helsingin kaupunki",
+	    "code_url": "https://github.com/City-of-Helsinki/servicemap",
+	    "service_url": " http://servicemap.hel.fi/",
+	    "homepage_url": "",
+	    "description": ""
+	}
     ]
 }
