@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <title>avoinkoodi.fi by solita</title>
+    <meta name="description" content="Lista julkishallinnon avoimen lähdekoodin projekteista. Palvelua ylläpitää Solita.">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/solitatheme.css" media="screen">
     <script src="./js/safari_bind.js"></script>
     <script src="./js/jquery-2.2.0.min.js"></script>
     <script src="./js/avoinkoodi.js"></script>
+
+    <meta property="og:url" content="http://www.avoinkoodi.fi">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="avoinkoodi.fi">
+    <meta property="og:description" content="Lista julkishallinnon avoimen lähdekoodin järjestelmistä. Palvelua ylläpitää Solita.">
   </head>
 
   <body>
@@ -36,6 +43,20 @@
           </svg>
       	  Projektilista JSON-muodossa
         </a>
+      </div>
+
+      <div class="some-widgets">
+        <div class="some-widget">
+          <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+        </div>
+
+        <div class="some-widget">
+          <div class="fb-like" data-href="http://www.avoinkoodi.fi" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+        </div>
+
+        <div class="some-widget">
+          <div class="g-plus" data-action="share" data-annotation="bubble" data-href="https://www.avoinkoodi.fi"></div>
+        </div>
       </div>
     </header>
 
@@ -92,7 +113,7 @@
     <footer class="footer">
       <a class="logo logo-white" href="http://www.solita.fi"></a>
 
-      <span class="footer-content"><a href="https://github.com/solita/avoinkoodi">Avoinkoodi</a>-palvelua ylläpitää <a href="https://github.com/solita">Solita</a>.</span>
+      <span class="footer-content"><a href="https://github.com/solita/avoinkoodi">avoinkoodi.fi</a>-palvelua ylläpitää <a href="https://github.com/solita">Solita</a>.</span>
     </footer>
 
     <script type="text/javascript">
@@ -105,5 +126,21 @@
             pageTracker._trackPageview();
           } catch(err) {}
       </script>
+
+      <!-- Twitter SDK -->
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+      <!-- Facebook SDK -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fi_FI/sdk.js#xfbml=1&version=v2.5&appId=996503203750493";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Google+ SDK -->
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
   </body>
 </html>
