@@ -48,8 +48,11 @@ h1, h2, h3, h4, h5, h6, h7 {
   font-weight: 800;
   color: #111;
   line-height: 100%;
-  text-transform: uppercase;
   word-wrap: break-word;
+}
+
+h1 {
+  text-transform: uppercase;  
 }
 
 a {
@@ -244,6 +247,20 @@ thead {
   td:last-child, td::last-child, tr:last-child, tr::last-child {
     padding-right: 0;
   }
+}
+
+/* SOME WIDGETS */
+
+.some-widgets {
+  margin-top: 2rem;
+}
+
+.some-widget {
+  display: inline-block;
+  height: 20px;
+  margin: 0 0.25em 0.5em;
+
+  vertical-align: middle;
 }
 
 /* BUTTONS */
