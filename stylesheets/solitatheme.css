@@ -66,8 +66,16 @@ a {
 }
 
 .logo {
+  display: inline-block;
   width: 110px;
   height: 23px;
+  
+  background: url(../images/solita_logo_dark.svg) no-repeat top left;
+  background-size: 100% 100%;
+}
+
+.logo-white {
+  background-image: url(../images/solita_logo_light.svg);
 }
 
 .header {
