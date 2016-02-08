@@ -156,7 +156,7 @@
             "project": "Liityntäkatalogi",
             "owner": "Väestörekisterikeskus",
             "code_url": "https://github.com/vrk-kpa/api-catalog",	    
-            "service_url": "-",
+            "service_url": "https://liityntakatalogi.suomi.fi/",
             "homepage_url": "-",
 	    "description": ""
 	},
