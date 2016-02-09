@@ -1,13 +1,7 @@
 "use strict";
 $(document).ready(function() {
     $("#projects").html('<tr><td colspan="4">Ladataan sisältöä...</td></tr>');
-    var json_url = window.location.pathname;
-
-    if (window.location.pathname.endsWith('/')) {
-        json_url = json_url.substring(0, json_url.length - 1);
-    }
-
-    $.getJSON(json_url + "/projects.json", function(data) {
+    $.getJSON( "projects.json", function(data) {
         $("#projects").html("");
 
         data.projects.sort(function(a, b) {
