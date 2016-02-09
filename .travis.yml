@@ -13,4 +13,4 @@ node_js:
 before_script:
   - npm install -g json
 
-script: bash json -f projects.json
+script: json -f projects.json
