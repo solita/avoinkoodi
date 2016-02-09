@@ -26,16 +26,18 @@ Ensisijaiset syylliset palvelun olemassaoloon:
 * Juhani Kumara
 
 Lisäksi haluamme kiittää seuraavia henkilöitä osallistumisesta palvelun kehittämiseen. Lista ei ole missään erityisessä järjestyksessä.
-* Jari Voutilainen
-* Riitta Partala
-* Mika Honkanen
-* Jarkko Moilanen
-* Hannes Junnila
-* Juha Komulainen
-* Ville Päivinen
-* Karri Niemelä
-* Daniel Schildt
+* [Jari Voutilainen](https://github.com/Zharktas)
+* [Riitta Partala](https://github.com/riittap)
+* [Mika Honkanen](https://github.com/Mygee)
+* [Jarkko Moilanen](https://github.com/kyyberi)
+* [Hannes Junnila](https://github.com/hannesj)
+* [Juha Komulainen](https://github.com/komu)
+* [Ville Päivinen](https://github.com/villepaivinen)
+* [Karri Niemelä](https://github.com/kakoni)
+* [Daniel Schildt](https://github.com/d2s)
 * Riikka Vacker
+* [Pete Nykänen](https://github.com/petetnt)
+* Aleksi Kopponen
 
 
 # Lisenssi
