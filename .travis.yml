@@ -1,6 +1,7 @@
 # whitelist
 branches:
   only:
+     - master
      - gh-pages
 	  
 language: node_js
@@ -10,5 +11,5 @@ node_js:
 before_script:
   - npm install -g json
 
-script: json -f projects.json
+script: bash json -f projects.json
 
