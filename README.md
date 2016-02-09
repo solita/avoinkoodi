@@ -25,7 +25,7 @@ Ensisijaiset syylliset palvelun olemassaoloon:
 * Iiro Uusitalo
 * Juhani Kumara
 
-Lisäksi haluamme kiittää seuraavia henkilöitä osallistumisesta palvelun kehittämiseen. Lista ei ole missään erityisessä järjestyksessä.
+Lisäksi haluamme kiittää seuraavia henkilöitä osallistumisesta palvelun kehittämiseen jossain muodossa. Lista ei ole missään erityisessä järjestyksessä.
 * [Jari Voutilainen](https://github.com/Zharktas)
 * [Riitta Partala](https://github.com/riittap)
 * [Mika Honkanen](https://github.com/Mygee)
@@ -38,7 +38,7 @@ Lisäksi haluamme kiittää seuraavia henkilöitä osallistumisesta palvelun keh
 * Riikka Vacker
 * [Pete Nykänen](https://github.com/petetnt)
 * Aleksi Kopponen
-
+* [Jussi Kalliokoski](https://github.com/jussi-kalliokoski)
 
 # Lisenssi
 
