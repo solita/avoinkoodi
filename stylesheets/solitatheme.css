@@ -176,6 +176,12 @@ a {
     vertical-align: top;  
   }
 
+  .footer-quote {
+      text-align: left;
+      float: center;
+      margin-top: 1rem;
+  }
+
   .footer-content {
     float: right;
     margin-top: 0;
