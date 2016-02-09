@@ -96,7 +96,7 @@ a {
   }
 
   .logo-content {
-    float: right;
+    float: center;
     margin-top: 0;
   }
 }
