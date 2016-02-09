@@ -34,6 +34,7 @@ Lisäksi haluamme kiittää seuraavia henkilöitä osallistumisesta palvelun keh
 * Juha Komulainen
 * Ville Päivinen
 * Karri Niemelä
+* Daniel Schildt
 
 
 # Lisenssi
