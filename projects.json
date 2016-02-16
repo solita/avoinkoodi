@@ -1,5 +1,21 @@
-{
+{    
     "projects": [
+	{
+            "project": "Avoimien aineistojen tiedostopalvelu",
+            "owner": "Maanmittauslaitos",
+            "code_url": "https://github.com/nlsfi/file-download-service",
+            "service_url": "https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en",
+            "homepage_url": "",
+	    "description": "Avoimien kartta-aineistojen jakopalvelu"
+	},
+	{
+            "project": "Avoin kartta- ja aineistopalvelu, oskari.org",
+            "owner": "Maanmittauslaitos",
+            "code_url": "https://github.com/nls-oskari/oskari.org",
+            "service_url": "http://www.oskari.org/",
+            "homepage_url": "http://www.oskari.org/",	    
+	    "description": "Avoimen kartta-aineiston katseluun ja selailuun tarkoitettu asiakasohjelma"
+	},
         {
             "project": "Ammatillisen aikuiskoulutuksen palautejärjestelmä Aipal",
             "owner": "Opetushallitus",
