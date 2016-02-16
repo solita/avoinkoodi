@@ -105,12 +105,20 @@
 	    "description": ""
         },
         {
-            "project": "Sähköisten rakennuslupien lupapiste.fi -palvelu",
+            "project": "Rakennetun ympäristön asiointipalvelu Lupapiste",
             "owner": "Ympäristöministeriö",
             "code_url": "https://github.com/lupapiste/lupapiste",
             "service_url": "https://www.lupapiste.fi/",
             "homepage_url": "-",
-	    "description": ""
+	    "description": "Lupapiste on sähköinen palvelu, jossa rakennus-, ympäristö- ja yleisten alueiden käyttölupiin liittyvät hakemukset ja aineistot välittyvät kunnan järjestelmiin sähköisessä muodossa. Lupapiste palvelee ensikontaktista tai neuvontapyynnöstä alkaen koko hankkeen ajan aina valmistumiseen saakka."
+        },
+	    {
+            "project": "Tarkkailija -palvelu asuinympäristön tapahtumien seurantaan",
+            "owner": "Ympäristöministeriö",
+            "code_url": "https://github.com/solita/Tarkkailija",
+            "service_url": "https://etarkkailija.fi/",
+            "homepage_url": "-",
+            "description": "Tarkkailijalla löytää tietoa valitun alueen asumisesta, kaavoituksesta, liikuntamahdollisuuksista, liikenteestä, yhdistystoiminnasta ja päätöksenteosta. Tarkkailija hakee tiedot yli 400:sta kuntien, viranomaisten ja medioiden verkkopalvelusta."
         },
         {
             "project": "Tieverkoston aineistopalvelu Digiroad",
