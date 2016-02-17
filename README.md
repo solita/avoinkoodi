@@ -28,9 +28,9 @@ Jos palvelu on julkinen palvelu, sen osoite kannattaa myös ilmoittaa. Samoin ma
 # Kiitämme
 
 Ensisijaiset syylliset palvelun olemassaoloon:
-* Antti Virtanen
-* Iiro Uusitalo
-* Juhani Kumara
+* [Antti Virtanen](https://github.com/lokori)
+* [Iiro Uusitalo](https://github.com/woltage)
+* [Juhani Kumara](https://github.com/jkumara)
 
 Lisäksi haluamme kiittää seuraavia henkilöitä osallistumisesta palvelun kehittämiseen jossain muodossa. Lista ei ole missään erityisessä järjestyksessä.
 * [Jari Voutilainen](https://github.com/Zharktas)
