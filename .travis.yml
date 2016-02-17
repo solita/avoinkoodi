@@ -3,8 +3,7 @@ sudo: required
 # whitelist
 branches:
   only:
-       - master
-       - gh-pages
+   - gh-pages
 
 language: node_js
 node_js:
