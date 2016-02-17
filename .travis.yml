@@ -1,0 +1,15 @@
+sudo: required
+
+# whitelist
+branches:
+  only:
+   - gh-pages   
+
+language: node_js
+node_js:
+  - "4.1"
+
+before_script:
+  - npm install -g json
+
+script: json -f projects.json
