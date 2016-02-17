@@ -1,3 +1,5 @@
+[![Build status](https://travis-ci.org/lokori/avoinkoodi.svg?branch=gh-pages)]
+
 # Avointa lähdekoodia Suomen julkishallinnosta
 
 Tämä on yksinkertainen lista julkishallinnon avoimen lähdekoodin projekteista. Tämä on kokeiluluontoinen projekti.
