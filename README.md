@@ -1,6 +1,13 @@
-# Avointa lähdekoodia Suomen julkishallinnosta
 
-Tämä on yksinkertainen lista julkishallinnon avoimen lähdekoodin projekteista. Tämä on kokeiluluontoinen projekti.
+Avoinkoodi.fi
+=============
+
+Tämä on yksinkertainen lista Suomen julkishallinnon projekteista, joiden lähdekoodi on julkaistu kaikille avoimena lähdekoodina. Projekti on kokeiluluontoinen.
+
+[![Build Status](https://api.travis-ci.org/solita/avoinkoodi.svg?branch=gh-pages)](https://travis-ci.org/solita/avoinkoodi)
+
+
+# Avointa lähdekoodia Suomen julkishallinnosta
 
 Tämä Github-projekti muodostaa webbisaitin, joka näkyy osoitteessa [http://www.avoinkoodi.fi/](http://www.avoinkoodi.fi/). Webbisaitti perustuu Githubin
 pages-mekanismiin, eli haarassa [gh-pages](https://github.com/solita/avoinkoodi/tree/gh-pages) on sivustolla näkyvä sisältö ja mahdolliset
