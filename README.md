@@ -1,4 +1,4 @@
-Automaattitarkastuksen tulos: [![Build status](https://travis-ci.org/lokori/avoinkoodi.svg?branch=gh-pages)]
+[![Build status](https://travis-ci.org/lokori/avoinkoodi.svg?branch=gh-pages)]
 
 # Avointa lähdekoodia Suomen julkishallinnosta
 
