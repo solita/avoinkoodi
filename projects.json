@@ -1,6 +1,14 @@
 {
     "projects": [
 	{
+            "project": "Skosmos, Suomen kielen sanasto ja thesaurus",
+            "owner": "Kansalliskirjasto",
+            "code_url": "https://github.com/NatLibFi/Skosmos",
+            "service_url": "http://skosmos.org/",	   
+            "homepage_url": "http://skosmos.org/",
+	    "description": "Suomen kielen sanasto ja thesaurus. Palvelin, REST-rajapinta ja selaussovellus"	    
+	},
+	{
             "project": "Avoimien aineistojen tiedostopalvelu",
             "owner": "Maanmittauslaitos",
             "code_url": "https://github.com/nlsfi/file-download-service",
