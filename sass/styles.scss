@@ -1,0 +1,595 @@
+@import 'grid';
+@import 'solitatheme';
+
+.page-container{
+	
+	width:100%;
+	
+	
+}
+
+
+.social-media {
+
+
+	.some-widget {
+	
+	text-align: center;
+	margin-top: 2rem;
+	
+	}
+
+	
+	.icon {
+	
+	width: 44px;
+	height: 44px;
+	display: block;
+	margin: 0 1rem;
+	background: transparent url('../img/social-sprite.png') no-repeat center center;
+	
+	
+	}
+	
+	.twitter-share-button {
+	
+	background-position: 0px 0px;
+
+
+	
+	}
+	
+	.twitter-share-button:hover {
+	
+	background-position: 0px -44px;
+
+	
+	}
+	
+	
+	
+	.fb-like {
+	
+	background-position: -44px 0px;
+
+	
+	}
+	
+	
+	.fb-like:hover {
+	
+	background-position: -44px -44px;
+	cursor: pointer;
+
+	
+	
+	}
+	
+	.g-plus {
+	
+	background-position: -88px 0px;
+
+	
+	}
+
+	.g-plus:hover {
+	
+	background-position: -88px -44px;
+	cursor: pointer;
+	
+	}
+	
+
+
+}
+
+
+
+.menu {
+
+	position: fixed;
+	width:100%;
+	z-index: 2000;
+
+	.menu-open {
+	
+	text-align: right;
+	width: 100%;
+	height: 55px;
+	border-bottom: solid 1px $grey-light;
+	background: white;
+	
+		.menuicon {
+		
+			    float:right;
+				display: block;
+				width: 30px;
+				width: 3rem;
+				height: 23px;
+				height: 2.3rem;
+				background: transparent url('../img/mobile_menu.png') no-repeat center center;
+				margin: .5rem;
+		}
+	
+	
+	}
+	
+	
+	.menu-container {
+	
+	display:none;
+	
+	}
+	
+	.menu-container.opened{
+	
+	 display:block;
+	 width: 100%;
+	 background-color: white;
+	 color: black;
+	 border-bottom: solid 1px $grey-light;
+
+		ul {
+		
+			margin: 0 auto;
+			max-width: 1196px;
+			width: 100%;
+			text-align:left;
+			
+		
+			li {
+				
+				list-style:none;
+				display: block;
+				padding: 1rem;
+				font-family: "proxima-nova", sans-serif;
+				text-transform: uppercase;
+				border-bottom: solid 1px $grey-light;
+			
+				a {
+	
+				font-style: normal;
+				color: $black;
+				
+				
+				}
+			
+			
+			
+			}
+			
+			
+		
+
+			
+			li:last-child {
+				
+				border-bottom: none;
+			
+			}
+		
+		
+		}
+
+
+	}
+	
+	
+	
+	
+	
+	@media only screen and (min-width : 768px) {
+
+	.menu-open {
+	
+	display:none;
+	
+	}
+
+	.menu-container, .menu-container.opened {
+
+	 display:block;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	  z-index: 9999;
+	  width: 100%;
+	  height: 85px;
+	  background-color: white;
+	  color: black;
+	  border-bottom: solid 1px $grey-light;
+
+		ul {
+		
+			margin: 0 auto;
+			max-width: 1196px;
+			width: 100%;
+			text-align:center;
+			
+		
+			li {
+				
+				list-style:none;
+				display: inline-block;
+				margin: 2rem 2rem;
+				font-family: "proxima-nova", sans-serif;
+				text-transform: uppercase;
+				border-bottom: none;
+				padding: 0;
+				
+				a {
+	
+				font-style: normal;
+				color: $black;
+				
+				
+				}
+
+			
+				@media only screen and (max-width: 800px) {
+	
+				margin: 2rem 1rem;
+	
+	
+				}
+			
+			
+			
+			}
+			
+				
+					
+		
+		}
+
+
+	}
+	
+		
+	
+	
+	}
+
+}
+
+
+header, section, footer {
+
+
+width: 100%;
+
+}
+
+header { 
+
+background: #fff url("../img/bg-top.jpg") left top no-repeat;
+background-size: cover;
+height: 100%;
+padding: 6rem 0em;
+
+	h1 {
+	
+
+		font-size: 2.5rem;
+		color: $pink;
+		margin-top: 0;
+		
+		@media only screen and (min-width : 768px) {
+		
+		font-size: 6rem;
+		margin-top: 6rem;
+		
+		transition: all 0.6s;
+		
+		}
+
+	}
+	
+	
+	h2 {
+	
+	font-family: "chaparral-pro", sans-serif;
+	font-size: 2rem;
+	font-style: italic;
+	
+	
+	}
+	
+	h2:after {
+    display: block;
+    width: 6rem;
+    border-bottom: 6px $pink solid;
+    margin: 2rem auto;
+    content: " ";
+	}
+	
+	p.ingress {
+	
+	color: $black;
+	font-size: 1.5rem;
+	line-height: 32px;
+	max-width: 80%;
+	margin: 50px auto 50px auto;
+	
+	@media only screen and (min-width : 768px) {
+	
+			max-width: 60%;
+	
+	}
+	
+	
+	}
+	
+	.buttons {
+	
+	margin: 2rem;
+	
+	}
+	
+
+
+
+}
+
+
+
+section {
+
+	position:relative;
+	text-align: center;
+	padding: 1rem 0 5rem 0;
+	background: white;
+	
+	
+	
+	h1 {
+	
+		font-size: 2rem;
+		z-index: 2;
+		width: auto;
+		display: inline-block;
+		background: white;
+		margin: 3rem auto 2rem auto;
+		position: relative;
+		padding: 0em 2rem;
+
+		
+		@media only screen and (min-width : 768px) {
+	
+			font-size: 3rem;
+	
+	}
+		
+	}
+	
+	h2 {
+	
+	text-transform: uppercase;
+	
+	
+	}
+	
+	
+	
+	
+	.lined {
+	
+	display: none;
+	
+	
+	@media only screen and (min-width : 768px) {
+	
+	display: block;
+	width: 100%;
+	border-bottom: 1px $grey-light solid;
+	margin: 0 auto;
+	content: " ";
+	position:absolute;
+	left:0;
+	top:6.5rem;
+	z-index: 0;
+	
+	}
+	
+	
+	}
+	
+	.link {
+	
+	margin-bottom: 2rem;
+	
+	a {
+	
+	font-weight:bold;
+	font-family: proxima-nova;
+	font-style: normal;
+	
+	}
+	
+	
+	}
+	
+
+
+
+}
+
+section.grey {
+
+	
+	
+	
+	background: #fff url("../img/bg-grey.jpg") left top no-repeat;
+	background-size: cover;
+	height: 100%;
+	
+	
+	
+	
+	h1 {
+	
+		background: none;
+	
+	
+	}
+	
+	
+	.ingress span {
+	
+	
+	line-height: 70px;
+	
+	
+	}
+
+
+
+}
+
+section.links {
+	
+	
+	@media only screen and (min-width : 1224px) {
+	
+	
+	
+	.content-right {
+	
+		border-left: solid 1px $grey-light;
+		padding-left: 3rem;
+	
+	
+	}
+	
+	}
+
+
+
+}
+
+
+section.about {
+
+
+	//background: #fff url("../img/bg-pink.jpg") left top no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 6rem 0;
+
+	
+	h1, h2 {
+	
+	
+	}
+	
+	a {
+	
+	font-weight: bold;
+	
+	}
+	
+	.lined {
+	
+	
+	@media only screen and (min-width : 768px) {
+	
+	top:11.5rem;
+
+	
+	}
+	
+	
+	}
+	
+	
+
+}
+
+
+
+.centered {
+
+margin: 0 auto;
+max-width: 1196px;
+display:block;
+padding: 0 1rem;
+
+}
+
+
+.container {
+
+
+@include row();
+
+
+}
+
+
+
+
+.content {
+	
+
+	
+	
+	@include column(12);
+	
+	margin-top: 1rem;
+	
+	
+	}
+	
+
+
+.content-center {
+
+	@include column(12);
+	text-align: center;
+
+}
+
+	
+.content-left {
+	
+	@include column(6);
+	text-align: left;
+
+}
+
+.content-right{
+
+	@include column(6);
+	text-align: left;
+
+}
+	
+
+	
+p.center-text {
+	
+	color: $black;
+	line-height: 32px;
+	max-width: 80%;
+	margin: 0 auto;
+	
+	@media only screen and (min-width : 768px) {
+	
+			max-width: 60%;
+	
+	}
+	
+}
+
+p.link-text {
+
+font-family: proxima-nova;
+
+}
+	
+
+	@media only screen and (max-width: 1223px) {
+	.content-center, .content, .content-left, .content-right, .container { width: 100%; }
+}
+	
+

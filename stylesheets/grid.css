@@ -1,0 +1,21 @@
+/* line 1, ../sass/grid.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@total-width : 100%;
+/* line 50, ../sass/grid.scss */
+body {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 35, ../sass/grid.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 40, ../sass/grid.scss */
+body:after {
+  clear: both;
+}

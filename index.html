@@ -1,13 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>avoinkoodi.fi by solita</title>
+    <title>avoinkoodi.fi</title>
     <meta name="description" content="Lista julkishallinnon avoimen lähdekoodin järjestelmistä. Palvelua ylläpitää Solita.">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/solitatheme.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" media="screen">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="./js/safari_bind.js"></script>
     <script src="./js/jquery-2.2.0.min.js"></script>
     <script src="./js/avoinkoodi.js"></script>
@@ -17,130 +19,261 @@
     <meta property="og:title" content="avoinkoodi.fi">
     <meta property="og:description" content="Lista julkishallinnon avoimen lähdekoodin järjestelmistä. Palvelua ylläpitää Solita.">
   </head>
+<body>
+	
+	<div class="menu">
+		<div class="menu-open">
+			<span class="menuicon"></span>
+		</div>
+		<div class="menu-container">
+				<ul>
+					<li><a href="#start">Etusivu</a></li>
+					<li><a href="#services">Palvelut</a></li>
+					<li><a href="#add-service">Ilmoita palvelu</a></li>
+					<li><a href="#links">Linkkejä</a></li>
+					<li><a href="taustaa.html">Taustaa</a></li>
+				</ul>
+		</div>
+	</div>
+	
+	<div class="page-container">
+	
+	<header id="start" class="anchor">
+		
+		<div class="centered">
+			<div class="container">
+				
+				<div class="content-center">
+					<h1>Avoinkoodi.fi</h1>
+					<h2 class="">Avoin koodi kunniaan</h2>
+					<p class="ingress">
+						Avoin lähdekoodi on veronmaksajien ja asiakkaiden etu. Tämä sivusto kokoaa yhteen Suomen avointa lähdekoodia hyödyntävät palvelut.
+					</p>
+					
+					
+					<div class="buttons">
+						<a href="https://github.com/solita/avoinkoodi" class="btn">
+						  <svg class="btn-icon btn-icon--gh" height="30" width="30" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+							<path d="M14.7 4.34c0.13-0.32 0.55-1.59-0.13-3.31 0 0-1.05-0.33-3.44 1.3C10.13 2.05 9.06 2.01 8 2.01c-1.06 0-2.13 0.04-3.13 0.32C2.48 0.69 1.43 1.03 1.43 1.03 0.75 2.75 1.17 4.02 1.3 4.34 0.49 5.21 0 6.33 0 7.69 0 12.84 3.33 14 7.98 14 12.63 14 16 12.84 16 7.69 16 6.33 15.51 5.21 14.7 4.34zM8 13.02c-3.3 0-5.98-0.15-5.98-3.35 0-0.76 0.38-1.48 1.02-2.07 1.07-0.98 2.9-0.46 4.96-0.46 2.07 0 3.88-0.52 4.96 0.46 0.65 0.59 1.02 1.3 1.02 2.07C13.98 12.86 11.3 13.02 8 13.02zM5.49 8.01c-0.66 0-1.2 0.8-1.2 1.78s0.54 1.79 1.2 1.79c0.66 0 1.2-0.8 1.2-1.79S6.15 8.01 5.49 8.01zM10.51 8.01C9.85 8.01 9.31 8.8 9.31 9.79s0.54 1.79 1.2 1.79 1.2-0.8 1.2-1.79C11.71 8.8 11.18 8.01 10.51 8.01z" />
+						  </svg>
+						  Projekti GitHubissa	
+						</a>
+						
+						
+						 <a href="projects.json" class="btn">
+							  <svg class="btn-icon" height="30" width="30"  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+								  <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+								  <path d="M0 0h24v24H0z" fill="none"/>
+							  </svg>
+							  Projektilista JSON-muodossa
+						</a>
+					</div>
+					
+					
+					<div class="social-media">
+							<div class="some-widgets">
+								<div class="some-widget">
+								  <a href="https://twitter.com/home?status=Avoin+koodi+kunniaan%0ahttps%3a%2f%2fwww.avoinkoodi.fi%2f" class="icon share-link twitter-share-button"></a>
+								  <span>&nbsp;</span>
+								</div>
 
-  <body>
-    <div class="logo-container">
-        <a class="logo" href="http://www.solita.fi"></a>
-    </div>
+								<div class="some-widget">
+									<a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.avoinkoodi.fi%2f" class="icon fb-like share-link"></a>
+									<span id="fb-share-count">&nbsp;</span>
+								</div>
 
-    <header class="header">
-      <div class="header-content">
-        <h1 class="header-title">avoinkoodi.fi</h1>
-        <p class="header-lead">Lista julkishallinnon avoimen lähdekoodin järjestelmistä</p>
+								<div class="some-widget">
+								  <a href="https://plus.google.com/share?url=https%3a%2f%2fwww.avoinkoodi.fi%2f" class="icon g-plus share-link"></a>
+								  <span id="gplus-share-count">&nbsp;</span>
+								</div>
+							</div>
+							
+						 </div>
+				 </div>					
+				</div>
+		</div>
+		
+	</header>
+	
+	<section id="services" class="anchor">
+		<div class="lined"></div>
+		<div class="centered">
+			<div class="container">
+				<div class="content">
+				
+					<h1>Avoimen lähdekoodin palvelut</h1>
+				
+				</div>
+				
+				<div class="content-left">
+				
+					<h2>Avoimen lähdekoodin järjestelmät julkishallinnossa</h2>
+					<p>
+					Tämä sivusto on yksinkertainen listaus kotimaan julkishallinnon IT-järjestelmistä, joiden lähdekoodi on julkisesti saatavilla. Tarkoitus on helpottaa tiedon löytämistä ja olemassaolevien ratkaisujen kartoittamista, ei tarjota kokonaisvaltaista palvelualustaa tai ohjeita projektien käynnistämistä varten.
+					</p>
+					
+					
+				
+				</div>
+				
+				<div class="content-right">
+				
+					<h2>Miksi?</h2>
+					<p>Tällaista listaa ei näyttänyt olevan olemassa, mutta julkishallinnossa avoimen lähdekoodin käyttö on nyt lisääntynyt ja lähdekoodia on aiempaa enemmän saatavilla julkisesti erilaisista palveluista. Tämä on kevyt ja nopea tapa kokeilla, onko listaukselle käyttäjiä ja tilausta.					</p>
 
-        <div class="header-divider"></div>
+				
+				</div>
+				
+			</div>
+			
+			
+		</div>
+		
+	</section>
+	
+	
+	<section class="anchor">
+		<div class="lined"></div>
+		<div class="centered">
+			<div class="container">
+				<div class="content">
+				
+					<h1>Lista palveluista</h1>
+					
+					 <table>
+						<thead>
+						<tr>
+						<th>Omistaja</th>
+						<th>Järjestelmä</th>
+						<th>Lähdekoodi</th>
+						<th>Palvelun osoite</th>
+						</tr>
+						</thead>
+						
+						
+							<tbody id="projects"><tr><td>CSC</td><td>Korkeakoulujen palautejärjestelmä Arvo</td><td><a href="https://github.com/CSC-IT-Center-for-Science/arvo">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Helsingin kaupunki</td><td>OpenStreetMap -palveluun pohjautuva palvelukartta</td><td><a href="https://github.com/City-of-Helsinki/servicemap">Näytä lähdekoodi »</a></td><td><a href=" http://servicemap.hel.fi/">Siirry palveluun »</a></td></tr><tr><td>HSL &amp; Liikennevirasto</td><td>Digitransit, Uuden ajan matkaopas</td><td><a href="https://github.com/HSLdevcom/digitransit">Näytä lähdekoodi »</a></td><td><a href="http://beta.digitransit.fi/">Siirry palveluun »</a></td></tr><tr><td>Kansalliskirjasto</td><td>Skosmos, Suomen kielen sanasto ja thesaurus</td><td><a href="https://github.com/NatLibFi/Skosmos">Näytä lähdekoodi »</a></td><td><a href="http://skosmos.org/">Siirry palveluun »</a></td></tr><tr><td>Liikennevirasto</td><td>Tieverkoston aineistopalvelu Digiroad</td><td><a href="https://github.com/finnishtransportagency/digiroad2">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Liikennevirasto</td><td>Liikennetietopalvelu Digitraffic</td><td><a href="https://github.com/finnishtransportagency/digitraffic">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Liikennevirasto</td><td>Joukkoliikenteen seurantajärjestelmä Juku</td><td><a href="https://github.com/solita/livijuku">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Maanmittauslaitos</td><td>Avoimien aineistojen tiedostopalvelu</td><td><a href="https://github.com/nlsfi/file-download-service">Näytä lähdekoodi »</a></td><td><a href="https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en">Siirry palveluun »</a></td></tr><tr><td>Maanmittauslaitos</td><td>Avoin kartta- ja aineistopalvelu, oskari.org</td><td><a href="https://github.com/nls-oskari/oskari.org">Näytä lähdekoodi »</a></td><td><a href="http://www.oskari.org/">Siirry palveluun »</a></td></tr><tr><td>Oikeusministeriö</td><td>kansalaisaloite.fi -palvelu</td><td><a href="https://github.com/solita/kansalaisaloite">Näytä lähdekoodi »</a></td><td><a href="https://www.kansalaisaloite.fi/">Siirry palveluun »</a></td></tr><tr><td>OKM &amp; CSC</td><td>MPASS tunnistusratkaisu (beta)</td><td><a href="https://github.com/Digipalvelutehdas/MPASS-proxy">Näytä lähdekoodi »</a></td><td><a href="https://mpass-connector.csc.fi/">Siirry palveluun »</a></td></tr><tr><td>Opetushallitus</td><td>Tutkintotietojen hallinnan ePerusteet -järjestelmä</td><td><a href="https://github.com/Opetushallitus/eperusteet">Näytä lähdekoodi »</a></td><td><a href="https://eperusteet.opintopolku.fi/">Siirry palveluun »</a></td></tr><tr><td>Opetushallitus</td><td>Valtionavustusten hakujärjestelmä</td><td><a href="https://github.com/Opetushallitus/valtionavustus">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Opetushallitus</td><td>Tutkintotoimikuntarekisteri Aitu</td><td><a href="https://github.com/Opetushallitus/aitu">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Opetushallitus</td><td>Hakurekisteri</td><td><a href="https://github.com/Opetushallitus/hakurekisteri">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Opetushallitus</td><td>osaan.fi -palvelu</td><td><a href="https://github.com/Opetushallitus/osaan.fi">Näytä lähdekoodi »</a></td><td><a href="https://www.osaan.fi">Siirry palveluun »</a></td></tr><tr><td>Opetushallitus</td><td>Todennetun osaamisen rekisteri TOR</td><td><a href="https://github.com/Opetushallitus/tor">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Opetushallitus</td><td>näyttötutkintohaku.fi -palvelu</td><td><a href="https://github.com/Opetushallitus/aituhaku">Näytä lähdekoodi »</a></td><td><a href="http://www.nayttotutkintohaku.fi">Siirry palveluun »</a></td></tr><tr><td>Opetushallitus</td><td>Koodistopalvelu</td><td><a href="https://github.com/Opetushallitus/koodisto">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Opetushallitus</td><td>Ammatillisen aikuiskoulutuksen palautejärjestelmä Aipal</td><td><a href="https://github.com/Opetushallitus/aipal">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Opetushallitus</td><td>Organisaatiopalvelu</td><td><a href="https://github.com/Opetushallitus/organisaatio">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Väestörekisterikeskus</td><td>Apika (PoC)</td><td><a href="https://github.com/Digipalvelutehdas/apika-dashboard">Näytä lähdekoodi »</a></td><td><a href="https://apika.digipalvelutehdas.fi/">Siirry palveluun »</a></td></tr><tr><td>Väestörekisterikeskus</td><td>Palveluväylän turvapalvelin</td><td><a href="https://github.com/vrk-kpa/xroad-public">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Väestörekisterikeskus</td><td>Liityntäkatalogi</td><td><a href="https://github.com/vrk-kpa/api-catalog">Näytä lähdekoodi »</a></td><td><a href="https://liityntakatalogi.suomi.fi/">Siirry palveluun »</a></td></tr><tr><td>Väestörekisterikeskus</td><td>Suomi.fi-tunnistaminen</td><td><a href="https://github.com/vrk-kpa?utf8=%E2%9C%93&amp;query=e-identification">Näytä lähdekoodi »</a></td><td>-</td></tr><tr><td>Valtori</td><td>Avoimen tiedon ja yhteentoimivuuden palvelu Avoindata.fi</td><td><a href="https://github.com/yhteentoimivuuspalvelut/ytp">Näytä lähdekoodi »</a></td><td><a href="https://www.avoindata.fi/fi">Siirry palveluun »</a></td></tr><tr><td>Ympäristöministeriö</td><td>Tarkkailija -palvelu asuinympäristön tapahtumien seurantaan</td><td><a href="https://github.com/solita/Tarkkailija">Näytä lähdekoodi »</a></td><td><a href="https://etarkkailija.fi/">Siirry palveluun »</a></td></tr><tr><td>Ympäristöministeriö</td><td>Rakennetun ympäristön asiointipalvelu Lupapiste</td><td><a href="https://github.com/lupapiste/lupapiste">Näytä lähdekoodi »</a></td><td><a href="https://www.lupapiste.fi/">Siirry palveluun »</a></td></tr></tbody>
+						
+						
+					</table>
+					
+				
+				</div>
+				
+			
+				
+			</div>
+			
+			
+		</div>
+		
+	</section>
+	
+	<section class="grey anchor" id="add-service">
+		<div class="centered">
+			<div class="container">
+				<div class="content">
+					<h1>Ilmoita palvelu</h1>
+					<p class="center-text">Jos tiedät, että listalta puuttuu jotain, voit käyttää GitHubin mekanismeja (issues tai pull request) asian ilmoittamiseen. Lista pysyy ajan tasalla, jos sen ylläpitämiseen osallistuu mahdollisimman moni. Palautetta ja ilmoituksia voi lähettää myös sähköpostitse:</p>
+					<p class="link-text"><span><a href="mailto:avoinkoodi@solita.fi">avoinkoodi@solita.fi</a></span></p>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	
+	
+	
+	<section class="links anchor" id="links">
+		<div class="lined"></div>
+		<div class="centered">
+			<div class="container">
+				<div class="content">
+					<h1>Linkkejä</h1>
+				</div>
+				
+				
+				<div class="content-left">
+				
+					<div class="link">
+						<a href="http://www.avoindata.fi">Avoindata.fi »</a> 
+						<p>
+						Tietoa avoimesta datasta ja sen käytöstä.
+						</p>
+					</div>
+					
+					<div class="link">
+						<a href="http://docs.jhs-suositukset.fi/jhs-suositukset/JHS169/JHS169.html">JHS-suositus 169 »</a> 
+						<p>
+						Julkishallinnon suositus avoimesta lähdekoodista.
+						</p>
+					</div>
+					
+					<div class="link">
+						<a href="http://docs.jhs-suositukset.fi/jhs-suositukset/JHS166_liite2/JHS166_liite2.html">JHS-suositus 166, liite 2 - JIT 2015 »</a> 
+						<p>
+						sopimusehtojen liite avoimen lähdekoodin hankinnoista.
+						</p>
+					</div>
 
-        <a href="https://github.com/solita/avoinkoodi" class="btn">
-          <svg class="btn-icon btn-icon--gh" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14.7 4.34c0.13-0.32 0.55-1.59-0.13-3.31 0 0-1.05-0.33-3.44 1.3C10.13 2.05 9.06 2.01 8 2.01c-1.06 0-2.13 0.04-3.13 0.32C2.48 0.69 1.43 1.03 1.43 1.03 0.75 2.75 1.17 4.02 1.3 4.34 0.49 5.21 0 6.33 0 7.69 0 12.84 3.33 14 7.98 14 12.63 14 16 12.84 16 7.69 16 6.33 15.51 5.21 14.7 4.34zM8 13.02c-3.3 0-5.98-0.15-5.98-3.35 0-0.76 0.38-1.48 1.02-2.07 1.07-0.98 2.9-0.46 4.96-0.46 2.07 0 3.88-0.52 4.96 0.46 0.65 0.59 1.02 1.3 1.02 2.07C13.98 12.86 11.3 13.02 8 13.02zM5.49 8.01c-0.66 0-1.2 0.8-1.2 1.78s0.54 1.79 1.2 1.79c0.66 0 1.2-0.8 1.2-1.79S6.15 8.01 5.49 8.01zM10.51 8.01C9.85 8.01 9.31 8.8 9.31 9.79s0.54 1.79 1.2 1.79 1.2-0.8 1.2-1.79C11.71 8.8 11.18 8.01 10.51 8.01z" />
-          </svg>
-          Projekti GitHubissa	
-        </a>
-        <a href="projects.json" class="btn">
-          <svg class="btn-icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-              <path d="M0 0h24v24H0z" fill="none"/>
-          </svg>
-      	  Projektilista JSON-muodossa
-        </a>
-      </div>
+	
+				
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				<div class="content-right">
+				
+					<div class="link">
+						<a href="https://coss.fi/">COSS ry »</a> 
+						<p>
+						Avoimen lähdekoodin, avointen rajapintojen ja avointen standardien edistämisyhdistys.
+						</p>
+					</div>
+					
+					<div class="link">
+						<a href="http://fi.okfn.org/">Open Knowledge Finland ry »</a> 
+						<p>
+						Avoimen tiedon edistämiseen keskittynyt yhdistys. Osa kansainvälistä Open Knowledge -verkostoa.
+						</p>
+					</div>
+					
+					<div class="link">
+						<a href="http://docs.jhs-suositukset.fi/jhs-suositukset/JHS166_liite2/JHS166_liite2.html">Avoimen rajapinnan määritelmä »</a> 
+						<p>
+						Coss ry:n ja Open Knowledge Finland ry:n yhteistyössä laatima avoimen rajapinnan määritelmä.
+						</p>
+					</div>
 
-      <div class="some-widgets">
-        <div class="some-widget">
-          <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-        </div>
+	
+				
+				</div>
+				
+		
+			</div>
+		</div>
+		
+	</section>
+	
+	<footer class="footer">
+		
+		<div class="centered">
+			<div class="container">
+			
+			  <a class="logo-white" href="http://www.avoinkoodi.fi">Avoinkoodi.fi</a>
+			  <div class="footer-content"><span>Palvelun tarjoaa</span> <a href="http://www.solita.fi" class="logo-white logo"></a></div>
+				
+			</div>
+		</div>
+		
+	</footer>
+	
+	
+	</div>
 
-        <div class="some-widget">
-          <div class="fb-like" data-href="http://www.avoinkoodi.fi" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-        </div>
 
-        <div class="some-widget">
-          <div class="g-plus" data-action="share" data-annotation="bubble" data-href="https://www.avoinkoodi.fi"></div>
-        </div>
-      </div>
-    </header>
-
-    <article class="article">
-      <div class="wrapper">
-        <h3>
-        <a id="avoimen-lähdekoodin-projektit-julkishallinnossa" class="anchor" href="#avoimen-l%C3%A4hdekoodin-projektit-julkishallinnossa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Avoimen lähdekoodin järjestelmät julkishallinnossa</h3>
-
-        <p>Tämä sivusto on yksinkertainen listaus kotimaan julkishallinnon IT-järjestelmistä, joiden lähdekoodi on julkisesti saatavilla. Tarkoitus on helpottaa tiedon löytämistä ja olemassaolevien ratkaisujen kartoittamista, ei tarjota kokonaisvaltaista palvelualustaa tai ohjeita projektien käynnistämistä varten. </p>
-
-        <p>Jos tiedät, että listalta puuttuu jotain, voit käyttää GitHubin mekanismeja (issues tai pull request) asian ilmoittamiseen. Lista pysyy ajan tasalla, jos sen ylläpitämiseen osallistuu mahdollisimman moni.</p>
-
-        <h3>
-        <a id="miksi" class="anchor" href="#miksi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Miksi</h3>
-
-        <p>Tällaista listaa ei näyttänyt olevan olemassa, mutta julkishallinnossa avoimen lähdekoodin käyttö on nyt lisääntynyt ja lähdekoodia on aiempaa enemmän saatavilla julkisesti erilaisista palveluista. Tämä on kevyt ja nopea tapa kokeilla, onko listaukselle käyttäjiä ja tilausta.</p>
-
-        <h3>
-        <a id="lista-palveluista" class="anchor" href="#lista-palveluista" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lista palveluista</h3>
-
-        <table>
-        <thead>
-        <tr>
-        <th>Omistaja</th>
-        <th>Järjestelmä</th>
-        <th>Lähdekoodi</th>
-	<th>Palvelun osoite</th>
-        </tr>
-        </thead>
-        <tbody id="projects">
-        </tbody>
-        </table>
-
-        <h3>
-        <a id="linkkejä-ja-tietoa-avoimesta-lähdekoodista-ja-avoimesta-datasta-yleisesti" class="anchor" href="#linkkej%C3%A4-ja-tietoa-avoimesta-l%C3%A4hdekoodista-ja-avoimesta-datasta-yleisesti" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linkkejä ja tietoa avoimesta lähdekoodista ja avoimesta datasta yleisesti</h3>
-
-        <ul>
-        <li>
-        <a href="https://www.avoindata.fi/fi">Avoindata.fi</a> - Tietoa avoimesta datasta ja sen käytöstä.</li>
-        <li>
-        <a href="http://docs.jhs-suositukset.fi/jhs-suositukset/JHS169/JHS169.html">JHS-suositus 169</a> - Julkishallinnon suositus avoimesta lähdekoodista.</li>
-        <li>
-        <a href="https://coss.fi/">COSS ry</a> - Avoimen lähdekoodin, avointen rajapintojen ja avointen standardien edistämisyhdistys.</li>
-        <li>
-        <a href="http://www.okf.fi/">Open Knowledge Finland ry</a> - Avoimen tiedon edistämiseen keskittynyt yhdistys. Osa kansainvälistä Open Knowledge -verkostoa.
-        </li>
-        <li>
-        <a href="http://www.avoinrajapinta.fi/">Avoimen rajapinnan määritelmä</a> - Coss ry:n ja Open Knowledge Finland ry:n yhteistyössä laatima avoimen rajapinnan määritelmä.
-        </li>
-        </ul> 
-      </div>
-    </article>
-
-    <footer class="footer">
-      <a class="logo logo-white" href="http://www.solita.fi"></a>
-
-      <span class="footer-content"><a href="https://github.com/solita/avoinkoodi">avoinkoodi.fi</a>-palvelua ylläpitää <a href="https://github.com/solita">Solita</a>.</span>
-    </footer>
-
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-      </script>
-      <script type="text/javascript">
-        try {
-          var pageTracker = _gat._getTracker("UA-35431188-3");
-            pageTracker._trackPageview();
-          } catch(err) {}
-      </script>
-
-      <!-- Twitter SDK -->
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-      <!-- Facebook SDK -->
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/fi_FI/sdk.js#xfbml=1&version=v2.5&appId=996503203750493";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Google+ SDK -->
-      <script src="https://apis.google.com/js/platform.js" async defer></script>
-  </body>
+</body>
 </html>
