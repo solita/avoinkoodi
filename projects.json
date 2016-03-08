@@ -110,8 +110,16 @@
             "code_url": "https://github.com/solita/kansalaisaloite",
             "service_url": "https://www.kansalaisaloite.fi/",
             "homepage_url": "-",
-	    "description": ""
+	    "description": "Kansalaisaloite.fi-verkkopalvelussa voit tehdä kansalaisaloitteen sekä kannattaa palvelussa avoinna olevia aloitteita. Palvelun käyttö on maksutonta."
         },
+        {
+            "project": "kuntalaisaloite.fi -palvelu",
+            "owner": "Oikeusministeriö",
+            "code_url": "https://github.com/solita/kuntalaisaloite",
+            "service_url": "https://www.kuntalaisaloite.fi/",
+            "homepage_url": "-",
+        "description": "Kuntalaisaloite.fi-verkkopalvelussa voit tehdä palvelussa mukana oleville kunnille kuntalaisaloitteita sekä kannattaa ja seurata muiden tekemiä aloitteita."
+        },        
         {
             "project": "Rakennetun ympäristön asiointipalvelu Lupapiste",
             "owner": "Ympäristöministeriö",
