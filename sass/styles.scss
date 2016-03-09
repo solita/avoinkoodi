@@ -2,6 +2,11 @@
 @import 'partials/grid';
 @import 'partials/solitatheme';
 
+html, body {
+	padding: 0;
+	margin: 0;	
+}
+
 .page-container {
 	width:100%;
 }
@@ -69,6 +74,7 @@
 			margin: 0.5rem;
 
 			background: transparent url('../img/mobile_menu.png') no-repeat center center;
+			cursor: pointer;
 		}
 	}
 
