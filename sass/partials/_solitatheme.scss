@@ -1,3 +1,5 @@
+/* FONTS */
+
 @font-face {
     font-family: "chaparral-pro";
     font-style: normal;
@@ -30,7 +32,7 @@
   box-sizing: border-box;
 }
 
-/*COLORS*/
+/* COLORS */
 
 $pink: #e93f85;
 $black: #111;
@@ -45,7 +47,7 @@ body {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-  color: #70767f;  
+  color: $grey;
   line-height: 28px;
   background: $black;
 }
@@ -55,15 +57,13 @@ h1, h2, h3, h4, h5, h6, h7 {
 
   font-family: "proxima-nova", sans-serif;
   font-weight: 800;
-  color: #111;
+  color: $black;
   line-height: 100%;
   word-wrap: break-word;
 }
 
 p {
-
-margin: .5rem 0;
-
+  margin: .5rem 0;
 }
 
 h1 {
@@ -71,16 +71,15 @@ h1 {
 }
 
 a {
-  color: #e93f85/*pink*/;
+  color: $pink;
   text-decoration: none;
-
 }
 
 /* HEADER */
 
 .logo-container {
   padding: 1.7rem 1rem;
-  border-bottom: 0.1rem solid #cbcfd7/*gray*/;
+  border-bottom: 0.1rem solid $grey;
 }
 
 .logo {
@@ -97,20 +96,13 @@ a {
   font-family: "proxima-nova", sans-serif;
   text-transform: uppercase;
   font-style:normal;
-
 }
 
 .logo-pink {
-
-
 	background: url(../img/solita-logo.png) no-repeat top left;
 	width: 150px;
 	height: 58px;
-
-
 }
-
-
 
 .header {
   padding: 2rem 1rem 2rem;
@@ -156,13 +148,13 @@ a {
   font-style: italic;
   font-weight: bold;
   letter-spacing: 0.05em;
-  color: #111/*black*/;
+  color: $black;
 }
 
 .header-lead:after, .header-lead::after {
   display: block;
   width: 3.5rem;
-  border-bottom: 6px #e93f85/*pink*/ solid;
+  border-bottom: 6px $pink solid;
   margin: 2em auto;
 
   content: " ";
@@ -185,8 +177,8 @@ a {
 
 .footer {
 
-  background: #111/*black*/;
-  color: #fff/*white*/;
+  background: $black;
+  color: $white;
 
   text-align: center;
   
@@ -261,7 +253,7 @@ th, td {
 }
 
 tr {
-  border-bottom: 1px solid #cbcfd7/*gray*/;  
+  border-bottom: 1px solid $grey;  
   padding: 1rem 0.25rem;
 }
 
@@ -295,13 +287,9 @@ thead {
     display: table-cell
   }
   
-  
   td {
-
-	border-right: 1px solid #cbcfd7/*gray*/; 
-
+  	border-right: 1px solid $grey;
 	}
-
 
   thead {
     display: table-header-group;
@@ -313,16 +301,16 @@ thead {
 
   th {
     padding: 1em;
-    border-bottom: 1px solid #cbcfd7/*gray*/;
+    border-bottom: 1px solid $grey;
 
     text-align: left;
     font-weight: bold;
-    color: #111/*black*/;
+    color: $black;
   }
 
   td {
     padding: 1em;
-    border-bottom: 1px solid #cbcfd7/*gray*/;
+    border-bottom: 1px solid $grey;
   }
 
   td:last-child, td::last-child, tr:last-child, tr::last-child {
@@ -338,26 +326,20 @@ thead {
 
 .some-widget {
   display: inline-block;
-
   vertical-align: middle;
   
   span {
-  
-  
-	height: 20px;
-	color: $pink;
-	margin: .3rem 0;
-  
+  	height: 20px;
+  	color: $pink;
+  	margin: .3rem 0;
   }
-  
-  
 }
 
 /* BUTTONS */
 
 .btn {
   display: inline-block;
-  border: 1px solid #e93f85/*pink*/;
+  border: 1px solid $pink;
   padding: 1rem;
   margin: 0.5rem 1rem;
   border-radius: 1rem;
@@ -368,20 +350,18 @@ thead {
 }
 
 .buttons {
-
-text-align: center;
-
+  text-align: center;
 }
 
 @media only screen and (min-width : 768px) {
   .btn {
     display: inline-block;
-    width: auto;
+    width: 100%;
+    max-width: 320px;
+    max-height: 66px;
     margin: 0.5rem;
-	max-height: 66px;
-	max-width: 320px;
-	font-size: 1.2rem;
-	width: 100%;
+  
+    font-size: 1.2rem;
   }
 }
 
@@ -390,7 +370,7 @@ text-align: center;
   width: 30px;
   height: 30px;
 
-  fill: #e93f85/*pink*/;
+  fill: $pink;
   vertical-align: middle;
   position: relative;
   top: -4px;
@@ -406,10 +386,10 @@ text-align: center;
 }
 
 .btn:hover {
-  background: #e93f85/*pink*/;
-  color: #fff/*white*/;
+  background: $pink;
+  color: $white;
 }
 
 .btn:hover .btn-icon {
-  fill: #fff/*white*/;
+  fill: $white;
 }
