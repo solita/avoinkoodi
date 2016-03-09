@@ -1,5 +1,29 @@
 {
     "projects": [
+	{
+            "project": "Skosmos, Suomen kielen sanasto ja thesaurus",
+            "owner": "Kansalliskirjasto",
+            "code_url": "https://github.com/NatLibFi/Skosmos",
+            "service_url": "http://skosmos.org/",	   
+            "homepage_url": "http://skosmos.org/",
+	    "description": "Suomen kielen sanasto ja thesaurus. Palvelin, REST-rajapinta ja selaussovellus"	    
+	},
+	{
+            "project": "Avoimien aineistojen tiedostopalvelu",
+            "owner": "Maanmittauslaitos",
+            "code_url": "https://github.com/nlsfi/file-download-service",
+            "service_url": "https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en",
+            "homepage_url": "",
+	    "description": "Avoimien kartta-aineistojen jakopalvelu"
+	},
+	{
+            "project": "Avoin kartta- ja aineistopalvelu, oskari.org",
+            "owner": "Maanmittauslaitos",
+            "code_url": "https://github.com/nls-oskari/oskari.org",
+            "service_url": "http://www.oskari.org/",
+            "homepage_url": "http://www.oskari.org/",	    
+	    "description": "Avoimen kartta-aineiston katseluun ja selailuun tarkoitettu asiakasohjelma"
+	},
         {
             "project": "Ammatillisen aikuiskoulutuksen palautejärjestelmä Aipal",
             "owner": "Opetushallitus",
@@ -86,15 +110,31 @@
             "code_url": "https://github.com/solita/kansalaisaloite",
             "service_url": "https://www.kansalaisaloite.fi/",
             "homepage_url": "-",
-	    "description": ""
+	    "description": "Kansalaisaloite.fi-verkkopalvelussa voit tehdä kansalaisaloitteen sekä kannattaa palvelussa avoinna olevia aloitteita. Palvelun käyttö on maksutonta."
         },
         {
-            "project": "Sähköisten rakennuslupien lupapiste.fi -palvelu",
+            "project": "kuntalaisaloite.fi -palvelu",
+            "owner": "Oikeusministeriö",
+            "code_url": "https://github.com/solita/kuntalaisaloite",
+            "service_url": "https://www.kuntalaisaloite.fi/",
+            "homepage_url": "-",
+        "description": "Kuntalaisaloite.fi-verkkopalvelussa voit tehdä palvelussa mukana oleville kunnille kuntalaisaloitteita sekä kannattaa ja seurata muiden tekemiä aloitteita."
+        },        
+        {
+            "project": "Rakennetun ympäristön asiointipalvelu Lupapiste",
             "owner": "Ympäristöministeriö",
             "code_url": "https://github.com/lupapiste/lupapiste",
             "service_url": "https://www.lupapiste.fi/",
             "homepage_url": "-",
-	    "description": ""
+	    "description": "Lupapiste on sähköinen palvelu, jossa rakennus-, ympäristö- ja yleisten alueiden käyttölupiin liittyvät hakemukset ja aineistot välittyvät kunnan järjestelmiin sähköisessä muodossa. Lupapiste palvelee ensikontaktista tai neuvontapyynnöstä alkaen koko hankkeen ajan aina valmistumiseen saakka."
+        },
+	    {
+            "project": "Tarkkailija -palvelu asuinympäristön tapahtumien seurantaan",
+            "owner": "Ympäristöministeriö",
+            "code_url": "https://github.com/solita/Tarkkailija",
+            "service_url": "https://etarkkailija.fi/",
+            "homepage_url": "-",
+            "description": "Tarkkailijalla löytää tietoa valitun alueen asumisesta, kaavoituksesta, liikuntamahdollisuuksista, liikenteestä, yhdistystoiminnasta ja päätöksenteosta. Tarkkailija hakee tiedot yli 400:sta kuntien, viranomaisten ja medioiden verkkopalvelusta."
         },
         {
             "project": "Tieverkoston aineistopalvelu Digiroad",
@@ -183,6 +223,14 @@
             "service_url": "-",
             "homepage_url": "http://esuomi.fi/palveluntarjoajille/tunnistaminen/",
 	    "description": "Suomi.fi-tunnistaminen mahdollistaa Suomen ja EU-kansalaisen sähköisen tunnistamisen tietoturvallisesti erilaisia tunnistusvälineitä, kuten pankkitunnistusta ja mobiilivarmennetta hyödyntäen."
-    }
+	},
+	{
+	    "project": "OpenStreetMap -palveluun pohjautuva palvelukartta",
+	    "owner": "Helsingin kaupunki",
+	    "code_url": "https://github.com/City-of-Helsinki/servicemap",
+	    "service_url": " http://servicemap.hel.fi/",
+	    "homepage_url": "",
+	    "description": ""
+	}
     ]
 }

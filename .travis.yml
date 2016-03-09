@@ -1,0 +1,20 @@
+sudo: required
+
+# whitelist
+branches:
+  only:
+   - gh-pages   
+
+language: node_js
+node_js:
+  - "4.1"
+
+before_script:
+  - npm install -g json
+
+script: json -f projects.json
+
+notifications:
+  hipchat:
+    rooms:
+      secure: Pv6+iBuUaa1J3+XW7YwjMXbQ2jo4vqu/1WTkT1cUf99SO05qe/jrwrpuU4MeUTswwzvAUCXAKtL91GFG4oQlGjM9X38YazsGUKyXd5fS7izkkqyk4D9rL77LLCHZeT0VGNmzMOxmC2+5BmbT3V1FWf131fw/5lX6n08k57t7w2RaJgIBb/CZJ5UegZYZzt52pDEBbvhir7K1PKgizadXE/XZZjKVqL4IxpbE2AC9XlGaxPPN+fGc49hTjSsQLZ8ktNcTPYuj6KjgcNL69kXGgZdZKfSkayWdGV+c8BqCYVyx3+uvSTiKQ+hGS3r230bJ9ZXEHoPGDPzeH43KsQGvHyqSEW5e3Mp9MVxDadaWb0HnpEnrEexTj9OLb2pMGzMMRSi/l2d4IVI/cPZ+TnFA3Fj7yA4oFhjFxtCD5IVrUUp6YPOq8RpGqxRXB8opAINa6dbjcP1VoCDbQqfFLPA/1mS30k1trSkdnlUUuV59mgOrezmMXrsXq8DnupEi/y8KZ9JmlGidxgO3wXyLFcC5E98r+qdT1Gb8+L5e0GOjnhh/2wGyJS4X4ewUPnfOMD5BKxHBYvZBzeGHdLIdCDkaIzrAp00zBeHG1xSp8HN3RLYMfSXxcgXqGcSd6c92kNyRCVCFuhMvVd4iZwsTLdDR6eT8S3kTCcb87kcfV5Yv4kM=
