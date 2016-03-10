@@ -2,22 +2,22 @@
 Avoinkoodi.fi
 =============
 
-Tämä on yksinkertainen lista Suomen julkishallinnon projekteista, joiden lähdekoodi on julkaistu kaikille avoimena lähdekoodina. Projekti on kokeiluluontoinen.
+Avoinkoodi.fi on yksinkertainen lista Suomen julkishallinnon projekteista, joiden lähdekoodi on julkaistu kaikille avoimena lähdekoodina.
 
 [![Build Status](https://api.travis-ci.org/solita/avoinkoodi.svg?branch=gh-pages)](https://travis-ci.org/solita/avoinkoodi)
 
 
 # Avointa lähdekoodia Suomen julkishallinnosta
 
-Tämä Github-projekti muodostaa webbisaitin, joka näkyy osoitteessa [http://www.avoinkoodi.fi/](http://www.avoinkoodi.fi/). Webbisaitti perustuu Githubin
-pages-mekanismiin, eli haarassa [gh-pages](https://github.com/solita/avoinkoodi/tree/gh-pages) on sivustolla näkyvä sisältö ja mahdolliset
+Tämä GitHub-projekti muodostaa webbisaitin, joka näkyy osoitteessa [http://www.avoinkoodi.fi/](http://www.avoinkoodi.fi/). Webbisaitti perustuu [GitHub
+pages -tekniikkaan](https://pages.github.com/), eli haarassa [gh-pages](https://github.com/solita/avoinkoodi/tree/gh-pages) on sivustolla näkyvä sisältö. Mahdolliset
 pull requestit pitää kohdistaa siihen, eikä master-haaraan.
 
 Projektidata ladataan selaimeen Javascriptilla JSON-muodossa, eli projektilistan voi ladata myös raakadatana ja upottaa siten muuallekin.
 
 # Puuttuuko listalta joku projekti tai järjestelmä?
 
-Projekteja lisätään listalle ihan mielellään, mutta projekteista pitäisi saada minimissään tietää kolme asiaa:
+Projekteja lisätään listalle mielellään, mutta projekteista pitäisi saada minimissään tietää kolme asiaa:
 
 1. Projektin omistaja (esimerkiksi Ympäristöministeriö)
 2. Lyhyt kuvaus siitä, mikä projekti on. Pelkkä nimi ei aina tarkoita ulkopuoliselle mitään.
@@ -25,12 +25,14 @@ Projekteja lisätään listalle ihan mielellään, mutta projekteista pitäisi s
 
 Jos palvelu on julkinen palvelu, sen osoite kannattaa myös ilmoittaa. Samoin mahdollinen projektin kotisivu, jos sellainen on.
 
+
 # Kiitämme
 
 Ensisijaiset syylliset palvelun olemassaoloon:
 * [Antti Virtanen](https://github.com/lokori)
 * [Iiro Uusitalo](https://github.com/woltage)
 * [Juhani Kumara](https://github.com/jkumara)
+* Heikki Niemi
 
 Lisäksi haluamme kiittää seuraavia henkilöitä osallistumisesta palvelun kehittämiseen jossain muodossa. Lista ei ole missään erityisessä järjestyksessä.
 * [Jari Voutilainen](https://github.com/Zharktas)
@@ -46,6 +48,10 @@ Lisäksi haluamme kiittää seuraavia henkilöitä osallistumisesta palvelun keh
 * [Pete Nykänen](https://github.com/petetnt)
 * Aleksi Kopponen
 * [Jussi Kalliokoski](https://github.com/jussi-kalliokoski)
+
+# Palaute
+
+Otamme mielellään palautetta vastaan sähköpostiosoitteeseen avoinkoodi@solita.fi
 
 # Lisenssi
 
