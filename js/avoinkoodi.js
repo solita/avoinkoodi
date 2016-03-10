@@ -20,11 +20,11 @@
               serviceUrl = '-';
 
           if (project.code_url.length > 1) {
-              codeUrl = "<a href='" + $("<td>").text(project.code_url).html() + "'>Näytä lähdekoodi</a>";
+              codeUrl = "<a href='" + $("<td>").text(project.code_url).html() + "'>Näytä lähdekoodi &raquo;</a>";
           }
 
           if (project.service_url.length > 1) {
-              serviceUrl = "<a href='" + $("<td>").text(project.service_url).html() + "'>Siirry palveluun</a>";
+              serviceUrl = "<a href='" + $("<td>").text(project.service_url).html() + "'>Siirry palveluun &raquo;</a>";
           }
 
           return "<tr>" +

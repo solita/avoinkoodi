@@ -254,24 +254,17 @@ th, td {
 }
 
 tr {
-  border-bottom: 1px solid $grey;  
+  border-bottom: 1px solid $grey-light;  
   padding: 1rem 0.25rem;
 }
 
-
-
 td:last-child {
-
-border-right: 0;
-
+  border-right: 0;
 }
 
-
 thead {
-    display: none;
-  }
-
-
+  display: none;
+}
 
 @media only screen and (min-width : 768px) {
   table {
@@ -289,7 +282,7 @@ thead {
   }
   
   td {
-  	border-right: 1px solid $grey;
+  	border-right: 1px solid $grey-light;
 	}
 
   thead {
@@ -302,7 +295,7 @@ thead {
 
   th {
     padding: 1em;
-    border-bottom: 1px solid $grey;
+    border-bottom: 1px solid $grey-light;
 
     text-align: left;
     font-weight: bold;
@@ -311,7 +304,7 @@ thead {
 
   td {
     padding: 1em;
-    border-bottom: 1px solid $grey;
+    border-bottom: 1px solid $grey-light;
   }
 
   td:last-child, td::last-child, tr:last-child, tr::last-child {
