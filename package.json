@@ -1,0 +1,17 @@
+{
+  "name": "avoinkoodi.fi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/avoinkoodi.js",
+  "scripts": {
+    "build": "node-sass ./sass --output-style compressed --output ./stylesheets",
+    "watch": "node-sass ./sass --watch --output-style compressed --output ./stylesheets",
+    "prebuild": "npm install",
+    "prewatch": "npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  }
+}

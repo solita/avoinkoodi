@@ -1,0 +1,374 @@
+@import 'partials/reset';
+@import 'partials/grid';
+@import 'partials/solitatheme';
+
+html, body {
+	padding: 0;
+	margin: 0;	
+}
+
+.page-container {
+	width:100%;
+}
+
+.social-media {
+	.some-widget {
+		text-align: center;
+		margin-top: 2rem;
+	}
+
+	.icon {	
+		display: block;
+		width: 44px;
+		height: 44px;
+		margin: 0 1rem;
+
+		background: transparent url('../img/social-sprite.png') no-repeat center center;	
+	}
+	
+	.twitter-share-button {	
+		background-position: 0px 0px;
+	}
+	
+	.twitter-share-button:hover {	
+		background-position: 0px -44px;
+	}
+	
+	.fb-like {
+		background-position: -44px 0px;
+	}	
+	
+	.fb-like:hover {
+		background-position: -44px -44px;
+		cursor: pointer;
+	}
+	
+	.g-plus {	
+		background-position: -88px 0px;
+	}
+
+	.g-plus:hover {
+		background-position: -88px -44px;
+		cursor: pointer;
+	}
+}
+
+.menu {
+	position: fixed;
+	width:100%;
+	z-index: 2000;
+
+	.menu-open {	
+		text-align: right;
+		width: 100%;
+		height: 55px;
+		border-bottom: solid 1px $grey-light;
+		background: white;
+	
+		.menuicon {
+			float:right;
+
+			display: block;
+			width: 3rem;
+			height: 2.3rem;
+			margin: 0.5rem;
+
+			background: transparent url('../img/mobile_menu.png') no-repeat center center;
+			cursor: pointer;
+		}
+	}
+
+	.menu-container {
+		display:none;
+	}
+	
+	.menu-container.opened {
+ 	  display:block;
+	  width: 100%;
+	 	border-bottom: solid 1px $grey-light;
+
+	  background-color: white;
+	  color: black;
+
+		ul {
+			width: 100%;
+			max-width: 1196px;
+			margin: 0 auto;
+			
+			text-align:left;
+		
+			li {				
+				list-style:none;
+				display: block;
+				padding: 1rem;
+				font-family: "proxima-nova", sans-serif;
+				text-transform: uppercase;
+				border-bottom: solid 1px $grey-light;
+			
+				a {	
+					font-style: normal;
+					color: $black;		
+				}
+			}
+
+			li:last-child {				
+				border-bottom: none;
+			}
+		}
+	}
+	
+	@media only screen and (min-width: 768px) {
+		.menu-open {
+			display:none;	
+		}
+
+		.menu-container, .menu-container.opened {
+	 	  position: fixed;
+		  top: 0;
+		  left: 0;
+		  z-index: 9999;
+
+	 	  display:block;
+		  width: 100%;
+		  height: 85px;
+		  border-bottom: solid 1px $grey-light;
+
+		  background-color: white;
+		  color: black;
+	
+			ul {	
+				margin: 0 auto;
+				max-width: 1196px;
+				width: 100%;
+				text-align:center;
+
+				li {
+					display: inline-block;
+					padding: 0;
+					border-bottom: none;
+					margin: 2rem 2rem;
+
+					list-style: none;
+					font-family: "proxima-nova", sans-serif;
+					text-transform: uppercase;				
+
+					a {	
+						font-style: normal;
+						color: $black;				
+					}
+
+					@media only screen and (max-width: 800px) {	
+						margin: 2rem 1rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+header, section, footer {
+	width: 100%;
+}
+
+header {
+	height: 100%;
+	padding: 6rem 0em;
+
+	background: #fff url("../img/bg-top.jpg") left top no-repeat;
+	background-size: cover;
+	
+	h1 {
+		margin-top: 0;
+
+		font-size: 2.5rem;
+		color: $pink;
+
+		@media only screen and (min-width : 768px) {
+			margin-top: 6rem;		
+			font-size: 6rem;
+			transition: all 0.6s;
+		}
+	}
+
+	h2 {
+		font-size: 2rem;
+		font-family: "chaparral-pro", sans-serif;
+		font-style: italic;	
+	
+		&:after {
+	    display: block;
+	    width: 6rem;
+	    border-bottom: 6px $pink solid;
+	    margin: 2rem auto;
+
+	    content: " ";
+		}
+	}
+	
+	
+	p.ingress {
+		max-width: 80%;
+		margin: 50px auto 50px auto;
+
+		color: $black;
+		font-size: 1.5rem;
+		line-height: 32px;
+
+		@media only screen and (min-width : 768px) {	
+			max-width: 60%;	
+		}
+	}
+
+	@media only screen and (min-width : 768px) {
+		.buttons {
+			margin: 2rem;
+		}
+	}
+}
+
+section {
+	position:relative;
+
+	padding: 1rem 0 5rem 0;
+
+	text-align: center;
+	background: white;
+		
+	h1 {
+		position: relative;
+		z-index: 2;
+
+		display: inline-block;
+		width: auto;
+		padding: 0em 2rem;
+		margin: 3rem auto 2rem auto;
+
+		font-size: 2rem;
+		background: white;
+		
+		@media only screen and (min-width : 768px) {	
+			font-size: 3rem;
+		}	
+	}
+
+	h2 {
+		text-transform: uppercase;
+	}
+	
+	.lined {
+		display: none;
+
+		@media only screen and (min-width : 768px) {
+			position:absolute;
+			left:0;
+			top: 6.5rem;
+			z-index: 0;
+
+			display: block;
+			width: 100%;
+			border-bottom: 1px $grey-light solid;
+			margin: 0 auto;
+
+			content: " ";
+		}
+	}
+	
+	.link {
+		margin-bottom: 2rem;
+
+		a {
+			font-weight:bold;
+			font-family: proxima-nova;
+			font-style: normal;
+		}
+	}
+}
+
+section.grey {
+	height: 100%;
+
+	background: #fff url("../img/bg-grey.jpg") left top no-repeat;
+	background-size: cover;
+
+	h1 {	
+		background: none;
+	}
+
+	.ingress span {
+		line-height: 70px;
+	}
+}
+
+@media only screen and (min-width : 1224px) {
+	section.links .content-right {	
+		border-left: solid 1px $grey-light;
+		padding-left: 3rem;
+	}
+}
+
+section.about {
+	background-size: cover;
+	height: 100%;
+	padding: 6rem 0;
+		
+	a {
+		font-weight: bold;
+	}
+	
+	.lined {
+		@media only screen and (min-width : 768px) {
+			top:11.5rem;
+		}
+	}
+}
+
+.centered {
+	display:block;
+	max-width: 1196px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.container {
+	@include row();
+}
+
+.content {
+	@include column(12);
+	margin-top: 1rem;	
+}
+	
+.content-center {
+	@include column(12);
+	text-align: center;
+}
+
+.content-left {	
+	@include column(6);
+	text-align: left;
+}
+
+.content-right{
+	@include column(6);
+	text-align: left;
+}
+	
+p.center-text {	
+	max-width: 80%;
+	margin: 0 auto;
+
+	color: $black;
+	line-height: 32px;
+
+	@media only screen and (min-width : 768px) {
+		max-width: 60%;	
+	}
+}
+
+p.link-text {
+	font-family: proxima-nova;
+}
+
+@media only screen and (max-width: 1223px) {
+	.content-center, .content, .content-left, .content-right, .container { width: 100%; }
+}
