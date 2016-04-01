@@ -127,7 +127,15 @@
             "service_url": "https://www.nuortenideat.fi/",
             "homepage_url": "-",
         "description": "Nuortenideat.fi on valtakunnallinen nuorten vaikuttamispalvelu, jonka avulla nuoret voivat helposti tehdä ehdotuksia, osallistua ja vaikuttaa heitä koskeviin asioihin."
-        },        
+        }, 
+        {
+            "project": "Otakantaa",
+            "owner": "Oikeusministeriö",
+            "code_url": "https://github.com/finnishnetsolutions/otakantaa",
+            "service_url": "https://www.otakantaa.fi/",
+            "homepage_url": "-",
+            "description": "Otakantaa.fi on kansalaisten, järjestöjen ja viranomaisten keskinäistä vuoropuhelua ja osallistumista tehostava verkkopalvelu."
+        }, 
         {
             "project": "Rakennetun ympäristön asiointipalvelu Lupapiste",
             "owner": "Ympäristöministeriö",
