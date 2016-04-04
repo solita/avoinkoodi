@@ -225,6 +225,14 @@
 	    "description": ""
 	},
 	{
+            "project": "Liityntäpysäköinnin tietojärjestelmä",
+            "owner": "HSL",
+            "code_url": "https://github.com/HSLdevcom/parkandrideAPI",	    
+            "service_url": "https://p.hsl.fi/#/hubs",
+            "homepage_url": "",
+	    "description": "Avoin rajapinta ja palvelu, joka jakaa tietoa pysäköintipaikoista pääkaupunkiseudulla."
+	},
+	{
             "project": "MPASS tunnistusratkaisu (beta)",
             "owner": "OKM & CSC",
             "code_url": "https://github.com/Digipalvelutehdas/MPASS-proxy",	    
