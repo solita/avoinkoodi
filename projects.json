@@ -17,9 +17,9 @@
 	    "description": "Avoimien kartta-aineistojen jakopalvelu"
 	},
 	{
-            "project": "Avoin kartta- ja aineistopalvelu, oskari.org",
+            "project": "Oskari - avoin karttarajapintojen ja -aineistojen integraatioalusta ja asiakasohjelma",
             "owner": "Maanmittauslaitos",
-            "code_url": "https://github.com/nls-oskari/oskari.org",
+            "code_url": "https://github.com/nls-oskari",
             "service_url": "http://www.oskari.org/",
             "homepage_url": "http://www.oskari.org/",	    
 	    "description": "Avoimen kartta-aineiston katseluun ja selailuun tarkoitettu asiakasohjelma"
