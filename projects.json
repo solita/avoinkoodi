@@ -1,6 +1,14 @@
 {
     "projects": [
 	{
+            "project": "Helsingin, Espoon, Vantaan ja Kauniaisten kaupunkien omistaman avoimen datan Helsinki Region Infoshare -palvelu",
+            "owner": "Helsinki, Espoo, Vantaa ja Kauniainen",
+            "code_url": "https://github.com/Helsingin-kaupungin-tietokeskus",
+            "service_url": "http://www.hri.fi/",
+            "homepage_url": "",
+	    "description": "Avoimien aineistojen jakopalvelu"
+	},	
+	{
             "project": "Skosmos, Suomen kielen sanasto ja thesaurus",
             "owner": "Kansalliskirjasto",
             "code_url": "https://github.com/NatLibFi/Skosmos",
