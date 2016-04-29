@@ -1,6 +1,22 @@
 {
     "projects": [
 	{
+            "project": "Kurssisivut - sisältö ja tietopalvelu",
+            "owner": "Helsingin yliopisto",
+            "code_url": "https://github.com/UH-StudentServices/coursepages",
+            "service_url": "https://courses.helsinki.fi/fi/content/kurssisivu-ja-opetushaut",
+            "homepage_url": "",
+	    "description": "Kurssien sisällön hallinta, esittely ja hakupalvelut Drupal-järjestelmän avulla toteutettuna."
+	},
+	{
+            "project": "Opintoni - omien kurssien ja tapahtumien yhteenveto opiskelijoille",
+            "owner": "Helsingin yliopisto",
+            "code_url": " https://github.com/UH-StudentServices/mystudies-myteaching-frontend",
+            "service_url": "https://courses.helsinki.fi/fi/content/opintoni-ja-opetukseni",
+            "homepage_url": "",
+	    "description": "Opiskelijan itsepalvelu omien kurssien ja tapahtumien seurantaan."
+	},	
+	{
             "project": "Helsingin, Espoon, Vantaan ja Kauniaisten kaupunkien omistaman avoimen datan Helsinki Region Infoshare -palvelu",
             "owner": "Helsinki, Espoo, Vantaa ja Kauniainen",
             "code_url": "https://github.com/Helsingin-kaupungin-tietokeskus",
