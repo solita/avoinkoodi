@@ -1,6 +1,14 @@
 {
     "projects": [
 	{
+            "project": "Koha – avoimen lähdekoodin kirjastojärjestelmä",
+            "owner": "Kuntien omistama Koha-Suomi Oy",
+            "code_url": "https://github.com/KohaSuomi/kohasuomi",
+            "service_url": "-",
+            "homepage_url": "",
+	    "description": "Suomeen sovitettu versio Koha-kirjastojärjestelmästä."	    
+	},
+	{
             "project": "Kurssisivut - sisältö ja tietopalvelu",
             "owner": "Helsingin yliopisto",
             "code_url": "https://github.com/UH-StudentServices/coursepages",
