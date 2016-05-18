@@ -12,7 +12,7 @@ node_js:
 before_script:
   - npm install -g jsonschema-cli
 
-script: validateJson.js -d projects.json -s projects-schema.json
+script: validateJson -d projects.json -s projects-schema.json
 
 notifications:
   hipchat:
