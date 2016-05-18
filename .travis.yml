@@ -10,9 +10,9 @@ node_js:
   - "4.1"
 
 before_script:
-  - npm install -g json
+  - npm install -g jsonschema-cli
 
-script: json -f projects.json
+script: validateJson -d projects.json -s projects-schema.json
 
 notifications:
   hipchat:
