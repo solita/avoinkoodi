@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Project list",
+    "description": "List of open source projects",
+    "id": "http://opencode.fi/projects-schema.json",
+    "type": "object",
+    "properties": {
+	"projects": {
+	   "type": "array",
+	   "items": {
+	   "title": "Project",
+           "type": "object",
+	   "properties": {
+	       "project": {
+		   "description": "The name of the project or service",
+		   "type": "string"
+	       },
+	       "owner": {
+		   "description": "The public sector organization who owns the project or service",	  
+		   "type": "string"
+	       },
+	       "code_url": {
+		   "description": "The URL for the source code. Preferably direct link to repository.",	  
+		   "type": "string"
+	       },
+	       "service_url": {
+		   "description": "The URL where the service can be accessed online. (If applicable)",
+		   "type": "string"
+	       },
+	       "homepage_url": {
+		   "description": "The URL of the project's homepage, if such exists.",
+		   "type": "string"
+	       },
+	       "description": {
+		   "description": "A longer description of the project.",
+		   "type": "string"
+	       }
+	   },
+	   "required": ["project", "owner", "code_url"]
+	   }
+	}
+    }
+}
+
+
+		
