@@ -295,6 +295,14 @@
 	    "service_url": " http://servicemap.hel.fi/",
 	    "homepage_url": "",
 	    "description": ""
-	}
+	},
+	{
+            "project": "Harja",
+            "owner": "Liikennevirasto",
+            "code_url": "https://github.com/finnishtransportagency/harja",
+            "service_url": "-",
+            "homepage_url": "-",
+	    "description": "Liikenneviraston väylien kunnossapidon seurannan ja raportoinnin tietojärjestelmä Harja"
+        }
     ]
 }
