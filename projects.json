@@ -1,6 +1,14 @@
 {
     "projects": [
 	{
+            "project": "Munsivut - palvelutori",
+            "owner": "Turun kaupunki",
+            "code_url": "https://github.com/digiturku",
+            "service_url": "http://www.turku.fi/munpalvelut",
+            "homepage_url": "http://www.turku.fi/munpalvelut",
+	    "description": "Digitaalinen palvelutori, joka yhdistää palveluiden käyttäjät niitä tuottaviin yrityksiin ja tahoihin."
+	},
+	{
             "project": "Koha – avoimen lähdekoodin kirjastojärjestelmä",
             "owner": "Kuntien omistama Koha-Suomi Oy",
             "code_url": "https://github.com/KohaSuomi/kohasuomi",
