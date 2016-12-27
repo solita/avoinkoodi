@@ -212,7 +212,7 @@
             "project": "Joukkoliikenteen seurantajärjestelmä Juku",
             "owner": "Liikennevirasto",
             "code_url": "https://github.com/solita/livijuku",
-            "service_url": "-",
+            "service_url": "https://juku.liikennevirasto.fi/",
             "homepage_url": "-",
 	    "description": ""
         },
