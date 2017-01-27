@@ -1,5 +1,13 @@
 {
-    "projects": [
+    "projects": [       
+	{
+            "project": "SmartMet Server - MetOcean data server",
+            "owner": "Ilmatieteenlaitos",
+            "code_url": "https://github.com/fmidev/smartmet-server",
+            "service_url": "-",
+            "homepage_url": "http://ilmatieteenlaitos.fi/avoin-lahdekoodi",
+	    "description": "Ilmatieteenlaitoksen MetOcean-säädatan hallintaan käytetty järjestelmä."
+	},
 	{
             "project": "Munsivut - palvelutori",
             "owner": "Turun kaupunki",
