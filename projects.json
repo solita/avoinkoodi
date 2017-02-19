@@ -233,12 +233,12 @@
 	    "description": ""
         },
         {
-            "project": "Avoimen tiedon ja yhteentoimivuuden palvelu Avoindata.fi",
-            "owner": "Valtori",
+            "project": "Avoimen tiedon ja yhteentoimivuuden palvelu avoindata.fi",
+            "owner": "Väestörekisterikeskus",
             "code_url": "https://github.com/yhteentoimivuuspalvelut/ytp",
             "service_url": "https://www.avoindata.fi/fi",
             "homepage_url": "-",
-	    "description": ""
+	    "description": "Ckan + Drupal + AWS. Räätälöidyt lähdekoodit GitHubista."
         },
         {
             "project": "Apika (PoC)",
