@@ -317,6 +317,7 @@
 	    "owner": "Turun kaupunki",
 	    "code_url": "https://www.turku.fi/github-turkufi",
 	    "service_url": "http://www.turku.fi/",
+	    "homepage_url": "http://www.kada.fi/",
 	    "description": "Turku.fi-alustaan pohjautuva kuntien tarpeisiin tehty Drupal 7 -pohjainen verkkopalvelualusta."
 	}
     ]
