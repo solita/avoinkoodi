@@ -9,10 +9,10 @@
 	    "description": "Ilmatieteenlaitoksen MetOcean-säädatan hallintaan käytetty järjestelmä."
 	},
 	{
-            "project": "Munsivut - palvelutori",
+            "project": "Munpalvelut.fi digitaalinen palvelutori",
             "owner": "Turun kaupunki",
-            "code_url": "https://github.com/digiturku",
-            "service_url": "http://www.turku.fi/munpalvelut",
+            "code_url": "http://www.turku.fi/github",
+            "service_url": "http://www.munpalvelut.fi/",
             "homepage_url": "http://www.turku.fi/munpalvelut",
 	    "description": "Digitaalinen palvelutori, joka yhdistää palveluiden käyttäjät niitä tuottaviin yrityksiin ja tahoihin."
 	},
@@ -311,6 +311,14 @@
             "service_url": "http://finnishtransportagency.github.io/harja/",
             "homepage_url": "http://finnishtransportagency.github.io/harja/",
 	    "description": "Liikenneviraston väylien kunnossapidon seurannan ja raportoinnin tietojärjestelmä Harja"
-        }
+        },
+	{
+	    "project": "KADA – Kuntien avoin digialusta",
+	    "owner": "Turun kaupunki",
+	    "code_url": "https://www.turku.fi/github-turkufi",
+	    "service_url": "http://www.turku.fi/",
+	    "homepage_url": "http://www.kada.fi/",
+	    "description": "Turku.fi-alustaan pohjautuva kuntien tarpeisiin tehty Drupal 7 -pohjainen verkkopalvelualusta."
+	}
     ]
 }
